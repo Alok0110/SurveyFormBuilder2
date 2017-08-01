@@ -19,11 +19,6 @@
     }
     
     /*
-     *Default variables
-     */
-    var JofferSurveyFormBuilderInit,
-     
-    /*
      *Default Settings
      */
     defaults = {
