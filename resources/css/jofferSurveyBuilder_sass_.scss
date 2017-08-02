@@ -1,0 +1,29 @@
+$baseColor: #8e44ad;
+$basePanelColor: #3e4652;
+$bigFont: 'Special Elite', cursive;
+$smallFont: 'Play', sans-serif;
+$generalFont: 'Titillium Web', 'Arial', sans-serif;
+
+.dis {
+  display: inline-block;
+}
+
+.fixed-slab {
+  width: 100%;
+  height: 150px;
+  background-color: #dedede;
+}
+
+.fixed-slab {
+  
+  div{
+    @extend .dis;
+    float: left;
+  }
+  
+  img {
+    @extend .dis;
+    width: 110px;
+    height: auto;
+  }
+}
