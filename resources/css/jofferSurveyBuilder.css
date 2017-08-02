@@ -1,0 +1,140 @@
+.dis, .fixed-slab img {
+  display: inline-block;
+}
+
+.fixed-slab {
+  width: 100%;
+  height: 120px;
+  background-color: #dedede;
+}
+
+.mid-lab {
+  width: 100%;
+  height: 20px;
+  float: left;
+}
+
+.fixed-slab img {
+  width: 110px;
+  height: auto;
+  margin: 20px 0 0 20px;
+  float: left;
+}
+.fixed-slab p {
+  font-family: "Titillium Web", "Arial", sans-serif;
+  font-size: 15px;
+}
+
+
+/*------------------*/
+/* SETUP */
+/*------------------*/
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,
+body{
+    
+    background-color: #fff;
+    color: #555;
+    font-family:  'Titillium Web', 'Arial', sans-serif; /* Could be changed accordingly */
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    /*overflow-y: hidden;*/
+}
+
+
+
+*:focus {outline: none;}
+
+/*-----------------------------------*/
+/* CLEAR FLOAT FOR RESPONSIVE DESIGN */
+/*-----------------------------------*/
+
+.clearfix {
+    
+    zoom: 1;
+    
+}
+
+.clearfix:after {
+    
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    
+}
+
+/*----------------------------------------*/
+/* REMOVE TEXT DECORATION FROM ANCHOR TAG */
+/*----------------------------------------*/
+
+a {
+    
+    text-decoration: none;
+    border: none;            /* Not recommended should be combined with hover and active state */
+    outline: none;           /* Not recommended should be combined with hover and active state */
+    
+}
+
+/*----------------------------------------*/
+/* ROW SIZE FOR DESIGN */
+/*----------------------------------------*/
+/* -- 1 Should be Normalize -- */
+/* -- 2 Should be Grid -- */
+/* -- 3 Should be local -- */
+
+/*.row{
+    
+    max-width: 1140px;  Not necessary pixel size, should be according to design 
+    margin: 0 auto;
+    
+}*/
+
+/*-----------------------------------------*/
+/* HEADING ELEMENTS */
+/*-----------------------------------------*/
+
+h1,
+h2,
+h3 {
+    
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+/*-----------------------------------------*/
+/* INPUT ELEMENTS */
+/*-----------------------------------------*/
+
+input[type=text],
+input[type=email],
+input[type=password],
+select,
+textarea{
+    
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+/*-----------------------------------------*/
+/* UL ELEMENTS */
+/*-----------------------------------------*/
+
+ul {
+    list-style: none;
+}
