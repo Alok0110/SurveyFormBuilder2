@@ -1,2 +1,2 @@
 $.JofferSurveyFormBuilderInit();
-$.fn.parTTT();
+
