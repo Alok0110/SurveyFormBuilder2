@@ -1,140 +1,67 @@
-.dis, .fixed-slab img {
-  display: inline-block;
-}
+.dis, .fixed-slab img, .mid-lab .fsamp-cl {
+  display: inline-block; }
+
+.disB, .mid-lab {
+  display: block; }
+
+.clearF {
+  clear: both; }
 
 .fixed-slab {
   width: 100%;
-  height: 120px;
-  background-color: #dedede;
-}
+  height: 130px;
+  background-color: #fff; }
 
-.mid-lab {
-  width: 100%;
-  height: 20px;
-  float: left;
-}
+.ele-btn-cl {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block; }
+
+.ele-btn-icon {
+  font-size: 20px; }
 
 .fixed-slab img {
   width: 110px;
   height: auto;
-  margin: 20px 0 0 20px;
   float: left;
-}
-.fixed-slab p {
+  margin-top: 34px;
+  margin-left: 20px;
+  margin-bottom: 10px; }
+
+.element-selector-cl {
+  overflow: auto;
+  width: 320px;
+  height: 600px; }
+
+.element-box-com-cl, .element-selector-cl .element-box, .element-selector-cl .element-box-cl {
+  height: 50px;
+  color: #fff;
   font-family: "Titillium Web", "Arial", sans-serif;
-  font-size: 15px;
-}
+  cursor: pointer; }
 
+.element-selector-cl .element-box {
+  background-color: #3e4652; }
 
-/*------------------*/
-/* SETUP */
-/*------------------*/
+.element-selector-cl .element-box-cl {
+  background-color: #545f6f;
+  border-color: #3e4652;
+  border: 0.5px solid #3e4652; }
 
-*{
-    
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
+.mid-lab {
+  background-color: #e74c3c;
+  height: 35px;
+  margin-top: 5px;
+  text-align: center; }
 
-html,
-body{
-    
-    background-color: #fff;
-    color: #555;
-    font-family:  'Titillium Web', 'Arial', sans-serif; /* Could be changed accordingly */
-    font-weight: 300;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
-    overflow-x: hidden;
-    /*overflow-y: hidden;*/
-}
-
-
-
-*:focus {outline: none;}
-
-/*-----------------------------------*/
-/* CLEAR FLOAT FOR RESPONSIVE DESIGN */
-/*-----------------------------------*/
-
-.clearfix {
-    
-    zoom: 1;
-    
-}
-
-.clearfix:after {
-    
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-    
-}
-
-/*----------------------------------------*/
-/* REMOVE TEXT DECORATION FROM ANCHOR TAG */
-/*----------------------------------------*/
-
-a {
-    
-    text-decoration: none;
-    border: none;            /* Not recommended should be combined with hover and active state */
-    outline: none;           /* Not recommended should be combined with hover and active state */
-    
-}
-
-/*----------------------------------------*/
-/* ROW SIZE FOR DESIGN */
-/*----------------------------------------*/
-/* -- 1 Should be Normalize -- */
-/* -- 2 Should be Grid -- */
-/* -- 3 Should be local -- */
-
-/*.row{
-    
-    max-width: 1140px;  Not necessary pixel size, should be according to design 
-    margin: 0 auto;
-    
-}*/
-
-/*-----------------------------------------*/
-/* HEADING ELEMENTS */
-/*-----------------------------------------*/
-
-h1,
-h2,
-h3 {
-    
-    font-weight: 300;
-    text-transform: uppercase;
-    
-}
-
-/*-----------------------------------------*/
-/* INPUT ELEMENTS */
-/*-----------------------------------------*/
-
-input[type=text],
-input[type=email],
-input[type=password],
-select,
-textarea{
-    
-    width: 100%;
-    padding: 5px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-    resize: none;
-}
-
-/*-----------------------------------------*/
-/* UL ELEMENTS */
-/*-----------------------------------------*/
-
-ul {
-    list-style: none;
-}
+.mid-lab .fsamp-cl {
+  color: #fff;
+  font-family: "Titillium Web", "Arial", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 0px;
+  height: 35px;
+  padding-left: 4px;
+  padding-right: 4px; }
+  .mid-lab .fsamp-cl:hover {
+    background-color: #C92918; }

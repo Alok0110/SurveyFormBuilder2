@@ -1,5 +1,8 @@
 $baseColor: #8e44ad;
 $basePanelColor: #3e4652;
+$baseButton: #545f6f;
+$secondaryColor: #e74c3c;
+$secondaryHoverColor: #C92918;
 $bigFont: 'Special Elite', cursive;
 $smallFont: 'Play', sans-serif;
 $generalFont: 'Titillium Web', 'Arial', sans-serif;
@@ -8,22 +11,96 @@ $generalFont: 'Titillium Web', 'Arial', sans-serif;
   display: inline-block;
 }
 
-.fixed-slab {
-  width: 100%;
-  height: 150px;
-  background-color: #dedede;
+.disB {
+    display: block;
+}
+
+.clearF {
+    clear: both;
 }
 
 .fixed-slab {
-  
-  div{
-    @extend .dis;
-    float: left;
-  }
+  width: 100%;
+  height: 130px;
+  background-color: #fff;
+}
+
+
+.ele-btn-cl {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.ele-btn-icon {
+    font-size: 20px;
+}
+
+.fixed-slab {
   
   img {
     @extend .dis;
     width: 110px;
     height: auto;
+    float: left;
+    margin-top: 34px;
+    margin-left: 20px;
+    margin-bottom: 10px;
   }
+}
+
+.element-selector-cl {
+    overflow: auto;
+    width: 320px;
+    height: 600px;
+}
+
+.element-box-com-cl {
+    height: 50px;
+    color: #fff;
+    font-family: $generalFont;
+    cursor: pointer;
+}
+
+.element-selector-cl {
+    .element-box {
+        @extend .element-box-com-cl;
+        background-color: $basePanelColor;
+    }
+    
+    .element-box-cl {
+        @extend .element-box-com-cl;
+        background-color: $baseButton;
+        border-color: $basePanelColor;
+        border: 0.5px solid $basePanelColor;
+    }
+    
+}
+
+.mid-lab {
+    @extend .disB;
+    background-color: $secondaryColor;
+    height: 35px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.mid-lab {
+    .fsamp-cl {
+        @extend .dis;
+        color: #fff;
+        font-family: $generalFont;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 0px;
+        height: 35px;
+        padding-left: 4px;
+        padding-right: 4px;
+        &:hover {
+            background-color: $secondaryHoverColor;
+        }
+    }
+    
+    
 }

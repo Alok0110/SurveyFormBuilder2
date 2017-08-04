@@ -1,0 +1,14 @@
+.dis, .fixed-slab div, .fixed-slab img {
+  display: inline-block; }
+
+.fixed-slab {
+  width: 100%;
+  height: 150px;
+  background-color: #dedede; }
+
+.fixed-slab div {
+  float: left; }
+
+.fixed-slab img {
+  width: 110px;
+  height: auto; }
