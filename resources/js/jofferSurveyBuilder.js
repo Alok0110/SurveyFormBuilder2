@@ -9,7 +9,10 @@
  *
  */
 
+
+
 ;(function(global, $){
+    "use strict";
     
     /*
      * Check if jquery is loaded first  
@@ -21,17 +24,21 @@
     /*
      *Default Settings
      */
-    defaults = {
-        
-        
+    const defaults = {
+        setone: "fir"
     };
     
     /*
      *Initialize the library
      */
     $.JofferSurveyFormBuilderInit = function() {
+           var testVar = 10;
+           console.log("test it ==>"+this.testVar+" "+defaults.setone);
+           
            
     };
     
     
 }(window, jQuery));
+
+

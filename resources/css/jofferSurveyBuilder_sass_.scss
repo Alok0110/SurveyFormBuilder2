@@ -40,6 +40,28 @@ $dragColor: #908d8d;
     height: 700px;
 }
 
+@mixin btn-del {
+        width: 4%;
+        float: left;
+}
+
+@mixin heading-delete-cl {
+        @extend .dis;
+        height: 30px;
+        margin-left: 2px;
+        font-size: 30px;
+        color: $secondaryColor;
+        cursor: pointer;
+}
+
+@mixin heading-drag-cl {
+        @extend .dis;
+        height: 30px;
+        margin-left: 2px;
+        font-size: 30px;
+        cursor: pointer;
+}
+
 .head-cl {
     
     .heading-cl {
@@ -62,27 +84,22 @@ $dragColor: #908d8d;
     }
     
     .heading-drag-cl {
-        @extend .dis;
-        height: 30px;
-        margin-left: 2px;
-        font-size: 30px;
-        cursor: pointer;
+        @include heading-drag-cl;
     }
     
     .heading-delete-cl {
-        @extend .dis;
-        height: 30px;
-        margin-left: 2px;
-        font-size: 30px;
-        color: $secondaryColor;
-        cursor: pointer;
+        @include heading-delete-cl;
     }
     
     .btn-del {
-        width: 4%;
-        float: left;
+        @include btn-del;
     }
+    
 }
+
+
+
+
 
 .ele-btn-cl {
     font-size: 18px;
@@ -165,3 +182,231 @@ $dragColor: #908d8d;
     
     
 }
+
+.survey-Q-cl {
+    .question-cl {
+        @extend .dis;
+        width: 80%;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 19px;
+        text-align: left;
+        float: left;
+    }
+    
+    .heading-drag-cl {
+        @include heading-drag-cl;
+    }
+    
+    .heading-delete-cl {
+        @include heading-delete-cl;
+    }
+    
+    .btn-del {
+        @include btn-del;
+    }
+}
+
+.image-samp-cl {
+    img {
+        border: 1px solid $baseButton;
+        margin-top: 20px;
+        float: left;
+    }
+    
+}
+
+.image-uploader-Q-cl {
+    
+    .heading-drag-cl {
+        @include heading-drag-cl;
+        margin-top: 20px !important;
+    }
+    
+    .heading-delete-cl {
+        @include heading-delete-cl;
+    }
+    
+    .btn-del {
+        @include btn-del;
+    }
+}
+
+.file-inp-cl {
+    input {
+        @extend .disB;
+        margin-top: 4px;
+    }
+}
+
+.group-cl {
+    .group-radio-cl {
+        float: left;
+    }
+    .group-text-cl {
+        float: left;
+    }
+}
+
+.radio-selector-cl {
+    .group-cl {
+        @extend .dis;
+        margin-top: 4px;
+        float: left;
+    }
+    .group-text-cl {
+        width: 394px;
+        float: left;
+    }
+    .heading-drag-cl {
+        @include heading-drag-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .heading-delete-cl {
+        @include heading-delete-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .btn-del {
+        @include btn-del;
+        margin-top: 0px !important;
+        width: 2% !important;
+    }
+}
+
+.file-uploader-cl {
+    
+    .heading-drag-cl {
+        @include heading-drag-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .heading-delete-cl {
+        @include heading-delete-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .btn-del {
+        @include btn-del;
+        margin-top: 0px !important;
+        width: 2% !important;
+    }
+    
+    .file-upload-holder-cl {
+        @extend .dis;
+        width: 397px;
+        float: left;
+        border: 1px solid $baseButton;
+    }
+}
+
+.file-uploader-cl {
+    margin-top: 20px;
+}
+
+.text-area-cl {
+    margin-top: 20px;
+}
+
+.text-area-cl {
+    .text-grp-cl{
+            textarea {
+                @extend .disB;
+                float: left;
+            }
+        }
+    
+    .heading-drag-cl {
+        @include heading-drag-cl;
+    }
+    
+    .heading-delete-cl {
+        @include heading-delete-cl;
+    }
+    
+    .btn-del {
+        @include btn-del;
+    }
+}
+
+
+.checkbox-selector-cl {
+    .group-cl {
+        @extend .dis;
+        margin-top: 4px;
+        float: left;
+    }
+    .group-text-cl {
+        width: 384px;
+        float: left;
+    }
+    .heading-drag-cl {
+        @include heading-drag-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .heading-delete-cl {
+        @include heading-delete-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .btn-del {
+        @include btn-del;
+        margin-top: 0px !important;
+        width: 2% !important;
+    }
+}
+
+.drop-down-opt-cl {
+    width: 420px;
+    margin-top: 20px;
+}
+
+.drop-down-opt-cl {
+
+        .DD-opt-cl {
+            select {
+                height: 30px;
+                width: 410px;
+                float: left;
+            }
+        }
+
+        .DD-opt-txt {
+           
+            @extend .dis;
+            margin-top: 4px;
+            float: left;
+        }
+    
+    .btn-del {
+        width: 2%;
+        margin-top: 0px;
+        float: left;
+    }
+    .heading-drag-cl {
+        @extend .dis;
+        height: 10px;
+        margin-left: 2px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .heading-delete-cl {
+        @extend .dis;
+        height: 10px;
+        margin-left: 2px;
+        font-size: 14px;
+        color: $secondaryColor;
+        cursor: pointer;
+    }
+    
+}
+

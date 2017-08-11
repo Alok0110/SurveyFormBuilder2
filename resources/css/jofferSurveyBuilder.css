@@ -1,7 +1,7 @@
-.dis, .head-cl .heading-cl, .head-cl .sub-heading-cl, .head-cl .heading-drag-cl, .head-cl .heading-delete-cl, .fixed-slab img, .mid-lab .fsamp-cl {
+.dis, .head-cl .heading-cl, .head-cl .sub-heading-cl, .head-cl .heading-drag-cl, .head-cl .heading-delete-cl, .fixed-slab img, .mid-lab .fsamp-cl, .survey-Q-cl .question-cl, .survey-Q-cl .heading-drag-cl, .survey-Q-cl .heading-delete-cl, .image-uploader-Q-cl .heading-drag-cl, .image-uploader-Q-cl .heading-delete-cl, .radio-selector-cl .group-cl, .radio-selector-cl .heading-drag-cl, .radio-selector-cl .heading-delete-cl, .file-uploader-cl .heading-drag-cl, .file-uploader-cl .heading-delete-cl, .file-uploader-cl .file-upload-holder-cl, .text-area-cl .heading-drag-cl, .text-area-cl .heading-delete-cl, .checkbox-selector-cl .group-cl, .checkbox-selector-cl .heading-drag-cl, .checkbox-selector-cl .heading-delete-cl, .drop-down-opt-cl .DD-opt-txt, .drop-down-opt-cl .heading-drag-cl, .drop-down-opt-cl .heading-delete-cl {
   display: inline-block; }
 
-.disB, .mid-lab {
+.disB, .mid-lab, .file-inp-cl input, .text-area-cl .text-grp-cl textarea {
   display: block; }
 
 .clearF {
@@ -111,3 +111,207 @@
   padding-right: 4px; }
   .mid-lab .fsamp-cl:hover {
     background-color: #C92918; }
+
+.survey-Q-cl .question-cl {
+  width: 80%;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 19px;
+  text-align: left;
+  float: left; }
+
+.survey-Q-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer; }
+
+.survey-Q-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer; }
+
+.survey-Q-cl .btn-del {
+  width: 4%;
+  float: left; }
+
+.image-samp-cl img {
+  border: 1px solid #545f6f;
+  margin-top: 20px;
+  float: left; }
+
+.image-uploader-Q-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  margin-top: 20px !important; }
+
+.image-uploader-Q-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer; }
+
+.image-uploader-Q-cl .btn-del {
+  width: 4%;
+  float: left; }
+
+.file-inp-cl input {
+  margin-top: 4px; }
+
+.group-cl .group-radio-cl {
+  float: left; }
+
+.group-cl .group-text-cl {
+  float: left; }
+
+.radio-selector-cl .group-cl {
+  margin-top: 4px;
+  float: left; }
+
+.radio-selector-cl .group-text-cl {
+  width: 394px;
+  float: left; }
+
+.radio-selector-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.radio-selector-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.radio-selector-cl .btn-del {
+  width: 4%;
+  float: left;
+  margin-top: 0px !important;
+  width: 2% !important; }
+
+.file-uploader-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.file-uploader-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.file-uploader-cl .btn-del {
+  width: 4%;
+  float: left;
+  margin-top: 0px !important;
+  width: 2% !important; }
+
+.file-uploader-cl .file-upload-holder-cl {
+  width: 397px;
+  float: left;
+  border: 1px solid #545f6f; }
+
+.file-uploader-cl {
+  margin-top: 20px; }
+
+.text-area-cl {
+  margin-top: 20px; }
+
+.text-area-cl .text-grp-cl textarea {
+  float: left; }
+
+.text-area-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer; }
+
+.text-area-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer; }
+
+.text-area-cl .btn-del {
+  width: 4%;
+  float: left; }
+
+.checkbox-selector-cl .group-cl {
+  margin-top: 4px;
+  float: left; }
+
+.checkbox-selector-cl .group-text-cl {
+  width: 384px;
+  float: left; }
+
+.checkbox-selector-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.checkbox-selector-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.checkbox-selector-cl .btn-del {
+  width: 4%;
+  float: left;
+  margin-top: 0px !important;
+  width: 2% !important; }
+
+.drop-down-opt-cl {
+  width: 420px;
+  margin-top: 20px; }
+
+.drop-down-opt-cl .DD-opt-cl select {
+  height: 30px;
+  width: 410px;
+  float: left; }
+
+.drop-down-opt-cl .DD-opt-txt {
+  margin-top: 4px;
+  float: left; }
+
+.drop-down-opt-cl .btn-del {
+  width: 2%;
+  margin-top: 0px;
+  float: left; }
+
+.drop-down-opt-cl .heading-drag-cl {
+  height: 10px;
+  margin-left: 2px;
+  font-size: 14px;
+  cursor: pointer; }
+
+.drop-down-opt-cl .heading-delete-cl {
+  height: 10px;
+  margin-left: 2px;
+  font-size: 14px;
+  color: #e74c3c;
+  cursor: pointer; }
