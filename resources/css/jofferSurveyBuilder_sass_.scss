@@ -16,6 +16,10 @@ $dragColor: #908d8d;
     display: block;
 }
 
+.commonTopMargin {
+    margin-top: 20px;
+}
+
 .clearF {
     clear: both;
 }
@@ -186,9 +190,10 @@ $dragColor: #908d8d;
 .survey-Q-cl {
     .question-cl {
         @extend .dis;
+        @extend .commonTopMargin;
         width: 80%;
         height: 40px;
-        margin-top: 20px;
+        
         font-size: 19px;
         text-align: left;
         float: left;
@@ -209,8 +214,9 @@ $dragColor: #908d8d;
 
 .image-samp-cl {
     img {
+        @extend .commonTopMargin;
         border: 1px solid $baseButton;
-        margin-top: 20px;
+        
         float: left;
     }
     
@@ -306,11 +312,11 @@ $dragColor: #908d8d;
 }
 
 .file-uploader-cl {
-    margin-top: 20px;
+    @extend .commonTopMargin;
 }
 
 .text-area-cl {
-    margin-top: 20px;
+    @extend .commonTopMargin;
 }
 
 .text-area-cl {
@@ -365,8 +371,8 @@ $dragColor: #908d8d;
 }
 
 .drop-down-opt-cl {
+    @extend .commonTopMargin;
     width: 420px;
-    margin-top: 20px;
 }
 
 .drop-down-opt-cl {
@@ -386,7 +392,7 @@ $dragColor: #908d8d;
             float: left;
         }
     
-    .btn-del {
+    /*.btn-del {
         width: 2%;
         margin-top: 0px;
         float: left;
@@ -406,7 +412,197 @@ $dragColor: #908d8d;
         font-size: 14px;
         color: $secondaryColor;
         cursor: pointer;
+    }*/
+    .heading-drag-cl {
+        @include heading-drag-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .heading-delete-cl {
+        @include heading-delete-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .btn-del {
+        @include btn-del;
+        margin-top: 0px !important;
+        width: 2% !important;
+    }
+}
+
+.full-name-cl {
+    .full-cont-cl {
+        @extend .dis;
+        width: 510px;
+        float: left;
+        
+        .flab-cl {
+            float: left;
+            margin-right: 4px;
+        }
+        .flab-input-cl {
+            float: left;
+            margin-right: 2px;
+            margin-left: 2px;
+        }
+        
+    }
+    
+    .heading-drag-cl {
+        @include heading-drag-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .heading-delete-cl {
+        @include heading-delete-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .btn-del {
+        @include btn-del;
+        margin-top: 0px !important;
+        width: 2% !important;
     }
     
 }
 
+.full-name-cl {
+    @extend .commonTopMargin;
+}
+
+
+
+.email-address-cl {
+    .email-id-cl{
+        @extend .dis;
+        width: 250px;
+        float: left;
+        
+        .email-id-lab {
+            float: left;
+        }
+        
+        .email-id-inp {
+            float: left;
+            margin-right: 4px;
+            margin-left: 4px;
+        }
+    }
+    
+    .heading-drag-cl {
+        @include heading-drag-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .heading-delete-cl {
+        @include heading-delete-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .btn-del {
+        @include btn-del;
+        margin-top: 0px !important;
+        width: 2% !important;
+    }
+    
+}
+
+.postal-address-cl {
+    
+    .postal-address-id-cl {
+        @extend .dis;
+        width: 384px;
+        float: left;
+    }
+    .postal-address-content {
+        float: left;
+        .street-add, .city-add, .state-add {
+            @extend .dis;
+            width: 384px;
+            float: left;
+            margin-top: 4px;
+        }
+        .city-add, .state-add {
+            width: 190px !important;
+        }
+        .state-add {
+            margin-left: 3px;
+        }
+    }
+    
+    .heading-drag-cl {
+        @include heading-drag-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .heading-delete-cl {
+        @include heading-delete-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .btn-del {
+        @include btn-del;
+        margin-top: 0px !important;
+        width: 2% !important;
+    }
+}
+
+.postal-address-cl {
+    @extend .commonTopMargin;
+    @extend .dis;
+    width: 404px;
+    
+}
+
+.Phone-num-cl {
+    .Phone-id-cl {
+        .Phone-id-lab {
+            float: left;
+        }
+        .code-inp {
+            float: left;
+            margin-left: 4px;
+            width: 50px;
+        }
+        .num-inp {
+            float: left;
+            width: 224px;
+        }
+        span {
+           float: left;
+           margin-left: 2px;
+           margin-right: 2px;
+        }
+    }
+    
+    .heading-drag-cl {
+        @include heading-drag-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .heading-delete-cl {
+        @include heading-delete-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .btn-del {
+        @include btn-del;
+        margin-top: 0px !important;
+        width: 2% !important;
+    }
+    
+}
+
+.Phone-num-cl {
+     @extend .commonTopMargin;
+}

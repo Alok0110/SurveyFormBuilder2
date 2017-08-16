@@ -1,8 +1,11 @@
-.dis, .head-cl .heading-cl, .head-cl .sub-heading-cl, .head-cl .heading-drag-cl, .head-cl .heading-delete-cl, .fixed-slab img, .mid-lab .fsamp-cl, .survey-Q-cl .question-cl, .survey-Q-cl .heading-drag-cl, .survey-Q-cl .heading-delete-cl, .image-uploader-Q-cl .heading-drag-cl, .image-uploader-Q-cl .heading-delete-cl, .radio-selector-cl .group-cl, .radio-selector-cl .heading-drag-cl, .radio-selector-cl .heading-delete-cl, .file-uploader-cl .heading-drag-cl, .file-uploader-cl .heading-delete-cl, .file-uploader-cl .file-upload-holder-cl, .text-area-cl .heading-drag-cl, .text-area-cl .heading-delete-cl, .checkbox-selector-cl .group-cl, .checkbox-selector-cl .heading-drag-cl, .checkbox-selector-cl .heading-delete-cl, .drop-down-opt-cl .DD-opt-txt, .drop-down-opt-cl .heading-drag-cl, .drop-down-opt-cl .heading-delete-cl {
+.dis, .head-cl .heading-cl, .head-cl .sub-heading-cl, .head-cl .heading-drag-cl, .head-cl .heading-delete-cl, .fixed-slab img, .mid-lab .fsamp-cl, .survey-Q-cl .question-cl, .survey-Q-cl .heading-drag-cl, .survey-Q-cl .heading-delete-cl, .image-uploader-Q-cl .heading-drag-cl, .image-uploader-Q-cl .heading-delete-cl, .radio-selector-cl .group-cl, .radio-selector-cl .heading-drag-cl, .radio-selector-cl .heading-delete-cl, .file-uploader-cl .heading-drag-cl, .file-uploader-cl .heading-delete-cl, .file-uploader-cl .file-upload-holder-cl, .text-area-cl .heading-drag-cl, .text-area-cl .heading-delete-cl, .checkbox-selector-cl .group-cl, .checkbox-selector-cl .heading-drag-cl, .checkbox-selector-cl .heading-delete-cl, .drop-down-opt-cl .DD-opt-txt, .drop-down-opt-cl .heading-drag-cl, .drop-down-opt-cl .heading-delete-cl, .full-name-cl .full-cont-cl, .full-name-cl .heading-drag-cl, .full-name-cl .heading-delete-cl, .email-address-cl .email-id-cl, .email-address-cl .heading-drag-cl, .email-address-cl .heading-delete-cl, .postal-address-cl .postal-address-id-cl, .postal-address-cl .postal-address-content .street-add, .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add, .postal-address-cl .heading-drag-cl, .postal-address-cl .heading-delete-cl, .postal-address-cl, .Phone-num-cl .heading-drag-cl, .Phone-num-cl .heading-delete-cl {
   display: inline-block; }
 
 .disB, .mid-lab, .file-inp-cl input, .text-area-cl .text-grp-cl textarea {
   display: block; }
+
+.commonTopMargin, .survey-Q-cl .question-cl, .image-samp-cl img, .file-uploader-cl, .text-area-cl, .drop-down-opt-cl, .full-name-cl, .postal-address-cl, .Phone-num-cl {
+  margin-top: 20px; }
 
 .clearF {
   clear: both; }
@@ -115,7 +118,6 @@
 .survey-Q-cl .question-cl {
   width: 80%;
   height: 40px;
-  margin-top: 20px;
   font-size: 19px;
   text-align: left;
   float: left; }
@@ -139,7 +141,6 @@
 
 .image-samp-cl img {
   border: 1px solid #545f6f;
-  margin-top: 20px;
   float: left; }
 
 .image-uploader-Q-cl .heading-drag-cl {
@@ -228,12 +229,6 @@
   float: left;
   border: 1px solid #545f6f; }
 
-.file-uploader-cl {
-  margin-top: 20px; }
-
-.text-area-cl {
-  margin-top: 20px; }
-
 .text-area-cl .text-grp-cl textarea {
   float: left; }
 
@@ -286,32 +281,202 @@
   width: 2% !important; }
 
 .drop-down-opt-cl {
-  width: 420px;
-  margin-top: 20px; }
+  width: 420px; }
 
-.drop-down-opt-cl .DD-opt-cl select {
+.drop-down-opt-cl {
+  /*.btn-del {
+        width: 2%;
+        margin-top: 0px;
+        float: left;
+    }
+    .heading-drag-cl {
+        @extend .dis;
+        height: 10px;
+        margin-left: 2px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .heading-delete-cl {
+        @extend .dis;
+        height: 10px;
+        margin-left: 2px;
+        font-size: 14px;
+        color: $secondaryColor;
+        cursor: pointer;
+    }*/ }
+  .drop-down-opt-cl .DD-opt-cl select {
+    height: 30px;
+    width: 410px;
+    float: left; }
+  .drop-down-opt-cl .DD-opt-txt {
+    margin-top: 4px;
+    float: left; }
+  .drop-down-opt-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .drop-down-opt-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .drop-down-opt-cl .btn-del {
+    width: 4%;
+    float: left;
+    margin-top: 0px !important;
+    width: 2% !important; }
+
+.full-name-cl .full-cont-cl {
+  width: 510px;
+  float: left; }
+  .full-name-cl .full-cont-cl .flab-cl {
+    float: left;
+    margin-right: 4px; }
+  .full-name-cl .full-cont-cl .flab-input-cl {
+    float: left;
+    margin-right: 2px;
+    margin-left: 2px; }
+
+.full-name-cl .heading-drag-cl {
   height: 30px;
-  width: 410px;
-  float: left; }
-
-.drop-down-opt-cl .DD-opt-txt {
-  margin-top: 4px;
-  float: left; }
-
-.drop-down-opt-cl .btn-del {
-  width: 2%;
-  margin-top: 0px;
-  float: left; }
-
-.drop-down-opt-cl .heading-drag-cl {
-  height: 10px;
   margin-left: 2px;
-  font-size: 14px;
-  cursor: pointer; }
+  font-size: 30px;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
 
-.drop-down-opt-cl .heading-delete-cl {
-  height: 10px;
+.full-name-cl .heading-delete-cl {
+  height: 30px;
   margin-left: 2px;
-  font-size: 14px;
+  font-size: 30px;
   color: #e74c3c;
-  cursor: pointer; }
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.full-name-cl .btn-del {
+  width: 4%;
+  float: left;
+  margin-top: 0px !important;
+  width: 2% !important; }
+
+.email-address-cl .email-id-cl {
+  width: 250px;
+  float: left; }
+  .email-address-cl .email-id-cl .email-id-lab {
+    float: left; }
+  .email-address-cl .email-id-cl .email-id-inp {
+    float: left;
+    margin-right: 4px;
+    margin-left: 4px; }
+
+.email-address-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.email-address-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.email-address-cl .btn-del {
+  width: 4%;
+  float: left;
+  margin-top: 0px !important;
+  width: 2% !important; }
+
+.postal-address-cl .postal-address-id-cl {
+  width: 384px;
+  float: left; }
+
+.postal-address-cl .postal-address-content {
+  float: left; }
+  .postal-address-cl .postal-address-content .street-add, .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add {
+    width: 384px;
+    float: left;
+    margin-top: 4px; }
+  .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add {
+    width: 190px !important; }
+  .postal-address-cl .postal-address-content .state-add {
+    margin-left: 3px; }
+
+.postal-address-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.postal-address-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.postal-address-cl .btn-del {
+  width: 4%;
+  float: left;
+  margin-top: 0px !important;
+  width: 2% !important; }
+
+.postal-address-cl {
+  width: 404px; }
+
+.Phone-num-cl .Phone-id-cl .Phone-id-lab {
+  float: left; }
+
+.Phone-num-cl .Phone-id-cl .code-inp {
+  float: left;
+  margin-left: 4px;
+  width: 50px; }
+
+.Phone-num-cl .Phone-id-cl .num-inp {
+  float: left;
+  width: 224px; }
+
+.Phone-num-cl .Phone-id-cl span {
+  float: left;
+  margin-left: 2px;
+  margin-right: 2px; }
+
+.Phone-num-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.Phone-num-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.Phone-num-cl .btn-del {
+  width: 4%;
+  float: left;
+  margin-top: 0px !important;
+  width: 2% !important; }
