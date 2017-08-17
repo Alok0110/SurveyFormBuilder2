@@ -1,4 +1,4 @@
-.dis, .head-cl .heading-cl, .head-cl .sub-heading-cl, .head-cl .heading-drag-cl, .head-cl .heading-delete-cl, .fixed-slab img, .mid-lab .fsamp-cl, .survey-Q-cl .question-cl, .survey-Q-cl .heading-drag-cl, .survey-Q-cl .heading-delete-cl, .image-uploader-Q-cl .heading-drag-cl, .image-uploader-Q-cl .heading-delete-cl, .radio-selector-cl .group-cl, .radio-selector-cl .heading-drag-cl, .radio-selector-cl .heading-delete-cl, .file-uploader-cl .heading-drag-cl, .file-uploader-cl .heading-delete-cl, .file-uploader-cl .file-upload-holder-cl, .text-area-cl .heading-drag-cl, .text-area-cl .heading-delete-cl, .checkbox-selector-cl .group-cl, .checkbox-selector-cl .heading-drag-cl, .checkbox-selector-cl .heading-delete-cl, .drop-down-opt-cl .DD-opt-txt, .drop-down-opt-cl .heading-drag-cl, .drop-down-opt-cl .heading-delete-cl, .full-name-cl .full-cont-cl, .full-name-cl .heading-drag-cl, .full-name-cl .heading-delete-cl, .email-address-cl .email-id-cl, .email-address-cl .heading-drag-cl, .email-address-cl .heading-delete-cl, .postal-address-cl .postal-address-id-cl, .postal-address-cl .postal-address-content .street-add, .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add, .postal-address-cl .heading-drag-cl, .postal-address-cl .heading-delete-cl, .postal-address-cl, .Phone-num-cl .heading-drag-cl, .Phone-num-cl .heading-delete-cl {
+.dis, .head-cl .heading-cl, .head-cl .sub-heading-cl, .head-cl .heading-drag-cl, .head-cl .heading-delete-cl, .fixed-slab img, .mid-lab .fsamp-cl, .survey-Q-cl .question-cl, .survey-Q-cl .heading-drag-cl, .survey-Q-cl .heading-delete-cl, .image-uploader-Q-cl .heading-drag-cl, .image-uploader-Q-cl .heading-delete-cl, .radio-selector-cl .group-cl, .radio-selector-cl .heading-drag-cl, .radio-selector-cl .heading-delete-cl, .file-uploader-cl .heading-drag-cl, .file-uploader-cl .heading-delete-cl, .file-uploader-cl .file-upload-holder-cl, .text-area-cl .heading-drag-cl, .text-area-cl .heading-delete-cl, .checkbox-selector-cl .group-cl, .checkbox-selector-cl .heading-drag-cl, .checkbox-selector-cl .heading-delete-cl, .drop-down-opt-cl .DD-opt-txt, .drop-down-opt-cl .heading-drag-cl, .drop-down-opt-cl .heading-delete-cl, .full-name-cl .full-cont-cl, .full-name-cl .heading-drag-cl, .full-name-cl .heading-delete-cl, .long-text-cl .long-text-id-cl, .long-text-cl .heading-drag-cl, .long-text-cl .heading-delete-cl, .email-address-cl .email-id-cl, .email-address-cl .date-id-cl, .email-address-cl .time-id-cl, .email-address-cl .button-id-cl, .email-address-cl .short-text-id-cl, .email-address-cl .number-text-id-cl, .date-cl .email-id-cl, .date-cl .date-id-cl, .date-cl .time-id-cl, .date-cl .button-id-cl, .date-cl .short-text-id-cl, .date-cl .number-text-id-cl, .time-cl .email-id-cl, .time-cl .date-id-cl, .time-cl .time-id-cl, .time-cl .button-id-cl, .time-cl .short-text-id-cl, .time-cl .number-text-id-cl, .button-cl .email-id-cl, .button-cl .date-id-cl, .button-cl .time-id-cl, .button-cl .button-id-cl, .button-cl .short-text-id-cl, .button-cl .number-text-id-cl, .short-text-cl .email-id-cl, .short-text-cl .date-id-cl, .short-text-cl .time-id-cl, .short-text-cl .button-id-cl, .short-text-cl .short-text-id-cl, .short-text-cl .number-text-id-cl, .number-text-cl .email-id-cl, .number-text-cl .date-id-cl, .number-text-cl .time-id-cl, .number-text-cl .button-id-cl, .number-text-cl .short-text-id-cl, .number-text-cl .number-text-id-cl, .email-address-cl .heading-drag-cl, .date-cl .heading-drag-cl, .time-cl .heading-drag-cl, .button-cl .heading-drag-cl, .short-text-cl .heading-drag-cl, .number-text-cl .heading-drag-cl, .email-address-cl .heading-delete-cl, .date-cl .heading-delete-cl, .time-cl .heading-delete-cl, .button-cl .heading-delete-cl, .short-text-cl .heading-delete-cl, .number-text-cl .heading-delete-cl, .postal-address-cl .postal-address-id-cl, .postal-address-cl .postal-address-content .street-add, .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add, .postal-address-cl .heading-drag-cl, .postal-address-cl .heading-delete-cl, .postal-address-cl, .Phone-num-cl .heading-drag-cl, .Phone-num-cl .heading-delete-cl {
   display: inline-block; }
 
 .disB, .mid-lab, .file-inp-cl input, .text-area-cl .text-grp-cl textarea {
@@ -367,17 +367,14 @@
   margin-top: 0px !important;
   width: 2% !important; }
 
-.email-address-cl .email-id-cl {
-  width: 250px;
+.long-text-cl .long-text-id-cl {
+  width: 650px;
   float: left; }
-  .email-address-cl .email-id-cl .email-id-lab {
-    float: left; }
-  .email-address-cl .email-id-cl .email-id-inp {
-    float: left;
-    margin-right: 4px;
-    margin-left: 4px; }
 
-.email-address-cl .heading-drag-cl {
+.long-text-cl .long-text-inp-cl {
+  width: 620px; }
+
+.long-text-cl .heading-drag-cl {
   height: 30px;
   margin-left: 2px;
   font-size: 30px;
@@ -385,7 +382,7 @@
   height: 10px !important;
   font-size: 14px !important; }
 
-.email-address-cl .heading-delete-cl {
+.long-text-cl .heading-delete-cl {
   height: 30px;
   margin-left: 2px;
   font-size: 30px;
@@ -394,7 +391,40 @@
   height: 10px !important;
   font-size: 14px !important; }
 
-.email-address-cl .btn-del {
+.long-text-cl .btn-del {
+  width: 4%;
+  float: left;
+  margin-top: 0px !important;
+  width: 2% !important; }
+
+.email-address-cl .email-id-cl, .email-address-cl .date-id-cl, .email-address-cl .time-id-cl, .email-address-cl .button-id-cl, .email-address-cl .short-text-id-cl, .email-address-cl .number-text-id-cl, .date-cl .email-id-cl, .date-cl .date-id-cl, .date-cl .time-id-cl, .date-cl .button-id-cl, .date-cl .short-text-id-cl, .date-cl .number-text-id-cl, .time-cl .email-id-cl, .time-cl .date-id-cl, .time-cl .time-id-cl, .time-cl .button-id-cl, .time-cl .short-text-id-cl, .time-cl .number-text-id-cl, .button-cl .email-id-cl, .button-cl .date-id-cl, .button-cl .time-id-cl, .button-cl .button-id-cl, .button-cl .short-text-id-cl, .button-cl .number-text-id-cl, .short-text-cl .email-id-cl, .short-text-cl .date-id-cl, .short-text-cl .time-id-cl, .short-text-cl .button-id-cl, .short-text-cl .short-text-id-cl, .short-text-cl .number-text-id-cl, .number-text-cl .email-id-cl, .number-text-cl .date-id-cl, .number-text-cl .time-id-cl, .number-text-cl .button-id-cl, .number-text-cl .short-text-id-cl, .number-text-cl .number-text-id-cl {
+  width: 250px;
+  float: left; }
+  .email-address-cl .email-id-cl .email-id-lab, .email-address-cl .email-id-cl .date-id-lab, .email-address-cl .email-id-cl .time-id-lab, .email-address-cl .date-id-cl .email-id-lab, .email-address-cl .date-id-cl .date-id-lab, .email-address-cl .date-id-cl .time-id-lab, .email-address-cl .time-id-cl .email-id-lab, .email-address-cl .time-id-cl .date-id-lab, .email-address-cl .time-id-cl .time-id-lab, .email-address-cl .button-id-cl .email-id-lab, .email-address-cl .button-id-cl .date-id-lab, .email-address-cl .button-id-cl .time-id-lab, .email-address-cl .short-text-id-cl .email-id-lab, .email-address-cl .short-text-id-cl .date-id-lab, .email-address-cl .short-text-id-cl .time-id-lab, .email-address-cl .number-text-id-cl .email-id-lab, .email-address-cl .number-text-id-cl .date-id-lab, .email-address-cl .number-text-id-cl .time-id-lab, .date-cl .email-id-cl .email-id-lab, .date-cl .email-id-cl .date-id-lab, .date-cl .email-id-cl .time-id-lab, .date-cl .date-id-cl .email-id-lab, .date-cl .date-id-cl .date-id-lab, .date-cl .date-id-cl .time-id-lab, .date-cl .time-id-cl .email-id-lab, .date-cl .time-id-cl .date-id-lab, .date-cl .time-id-cl .time-id-lab, .date-cl .button-id-cl .email-id-lab, .date-cl .button-id-cl .date-id-lab, .date-cl .button-id-cl .time-id-lab, .date-cl .short-text-id-cl .email-id-lab, .date-cl .short-text-id-cl .date-id-lab, .date-cl .short-text-id-cl .time-id-lab, .date-cl .number-text-id-cl .email-id-lab, .date-cl .number-text-id-cl .date-id-lab, .date-cl .number-text-id-cl .time-id-lab, .time-cl .email-id-cl .email-id-lab, .time-cl .email-id-cl .date-id-lab, .time-cl .email-id-cl .time-id-lab, .time-cl .date-id-cl .email-id-lab, .time-cl .date-id-cl .date-id-lab, .time-cl .date-id-cl .time-id-lab, .time-cl .time-id-cl .email-id-lab, .time-cl .time-id-cl .date-id-lab, .time-cl .time-id-cl .time-id-lab, .time-cl .button-id-cl .email-id-lab, .time-cl .button-id-cl .date-id-lab, .time-cl .button-id-cl .time-id-lab, .time-cl .short-text-id-cl .email-id-lab, .time-cl .short-text-id-cl .date-id-lab, .time-cl .short-text-id-cl .time-id-lab, .time-cl .number-text-id-cl .email-id-lab, .time-cl .number-text-id-cl .date-id-lab, .time-cl .number-text-id-cl .time-id-lab, .button-cl .email-id-cl .email-id-lab, .button-cl .email-id-cl .date-id-lab, .button-cl .email-id-cl .time-id-lab, .button-cl .date-id-cl .email-id-lab, .button-cl .date-id-cl .date-id-lab, .button-cl .date-id-cl .time-id-lab, .button-cl .time-id-cl .email-id-lab, .button-cl .time-id-cl .date-id-lab, .button-cl .time-id-cl .time-id-lab, .button-cl .button-id-cl .email-id-lab, .button-cl .button-id-cl .date-id-lab, .button-cl .button-id-cl .time-id-lab, .button-cl .short-text-id-cl .email-id-lab, .button-cl .short-text-id-cl .date-id-lab, .button-cl .short-text-id-cl .time-id-lab, .button-cl .number-text-id-cl .email-id-lab, .button-cl .number-text-id-cl .date-id-lab, .button-cl .number-text-id-cl .time-id-lab, .short-text-cl .email-id-cl .email-id-lab, .short-text-cl .email-id-cl .date-id-lab, .short-text-cl .email-id-cl .time-id-lab, .short-text-cl .date-id-cl .email-id-lab, .short-text-cl .date-id-cl .date-id-lab, .short-text-cl .date-id-cl .time-id-lab, .short-text-cl .time-id-cl .email-id-lab, .short-text-cl .time-id-cl .date-id-lab, .short-text-cl .time-id-cl .time-id-lab, .short-text-cl .button-id-cl .email-id-lab, .short-text-cl .button-id-cl .date-id-lab, .short-text-cl .button-id-cl .time-id-lab, .short-text-cl .short-text-id-cl .email-id-lab, .short-text-cl .short-text-id-cl .date-id-lab, .short-text-cl .short-text-id-cl .time-id-lab, .short-text-cl .number-text-id-cl .email-id-lab, .short-text-cl .number-text-id-cl .date-id-lab, .short-text-cl .number-text-id-cl .time-id-lab, .number-text-cl .email-id-cl .email-id-lab, .number-text-cl .email-id-cl .date-id-lab, .number-text-cl .email-id-cl .time-id-lab, .number-text-cl .date-id-cl .email-id-lab, .number-text-cl .date-id-cl .date-id-lab, .number-text-cl .date-id-cl .time-id-lab, .number-text-cl .time-id-cl .email-id-lab, .number-text-cl .time-id-cl .date-id-lab, .number-text-cl .time-id-cl .time-id-lab, .number-text-cl .button-id-cl .email-id-lab, .number-text-cl .button-id-cl .date-id-lab, .number-text-cl .button-id-cl .time-id-lab, .number-text-cl .short-text-id-cl .email-id-lab, .number-text-cl .short-text-id-cl .date-id-lab, .number-text-cl .short-text-id-cl .time-id-lab, .number-text-cl .number-text-id-cl .email-id-lab, .number-text-cl .number-text-id-cl .date-id-lab, .number-text-cl .number-text-id-cl .time-id-lab {
+    float: left; }
+  .email-address-cl .email-id-cl .email-id-inp, .email-address-cl .date-id-cl .email-id-inp, .email-address-cl .time-id-cl .email-id-inp, .email-address-cl .button-id-cl .email-id-inp, .email-address-cl .short-text-id-cl .email-id-inp, .email-address-cl .number-text-id-cl .email-id-inp, .date-cl .email-id-cl .email-id-inp, .date-cl .date-id-cl .email-id-inp, .date-cl .time-id-cl .email-id-inp, .date-cl .button-id-cl .email-id-inp, .date-cl .short-text-id-cl .email-id-inp, .date-cl .number-text-id-cl .email-id-inp, .time-cl .email-id-cl .email-id-inp, .time-cl .date-id-cl .email-id-inp, .time-cl .time-id-cl .email-id-inp, .time-cl .button-id-cl .email-id-inp, .time-cl .short-text-id-cl .email-id-inp, .time-cl .number-text-id-cl .email-id-inp, .button-cl .email-id-cl .email-id-inp, .button-cl .date-id-cl .email-id-inp, .button-cl .time-id-cl .email-id-inp, .button-cl .button-id-cl .email-id-inp, .button-cl .short-text-id-cl .email-id-inp, .button-cl .number-text-id-cl .email-id-inp, .short-text-cl .email-id-cl .email-id-inp, .short-text-cl .date-id-cl .email-id-inp, .short-text-cl .time-id-cl .email-id-inp, .short-text-cl .button-id-cl .email-id-inp, .short-text-cl .short-text-id-cl .email-id-inp, .short-text-cl .number-text-id-cl .email-id-inp, .number-text-cl .email-id-cl .email-id-inp, .number-text-cl .date-id-cl .email-id-inp, .number-text-cl .time-id-cl .email-id-inp, .number-text-cl .button-id-cl .email-id-inp, .number-text-cl .short-text-id-cl .email-id-inp, .number-text-cl .number-text-id-cl .email-id-inp {
+    float: left;
+    margin-right: 4px;
+    margin-left: 4px; }
+
+.email-address-cl .heading-drag-cl, .date-cl .heading-drag-cl, .time-cl .heading-drag-cl, .button-cl .heading-drag-cl, .short-text-cl .heading-drag-cl, .number-text-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.email-address-cl .heading-delete-cl, .date-cl .heading-delete-cl, .time-cl .heading-delete-cl, .button-cl .heading-delete-cl, .short-text-cl .heading-delete-cl, .number-text-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.email-address-cl .btn-del, .date-cl .btn-del, .time-cl .btn-del, .button-cl .btn-del, .short-text-cl .btn-del, .number-text-cl .btn-del {
   width: 4%;
   float: left;
   margin-top: 0px !important;

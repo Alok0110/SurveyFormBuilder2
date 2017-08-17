@@ -475,14 +475,41 @@ $dragColor: #908d8d;
 }
 
 
+.long-text-cl {
+    .long-text-id-cl{
+         @extend .dis;
+         width: 650px;
+         float: left;
+    }
+    .long-text-inp-cl{
+        width: 620px;
+    }
+    .heading-drag-cl {
+        @include heading-drag-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .heading-delete-cl {
+        @include heading-delete-cl;
+        height: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    .btn-del {
+        @include btn-del;
+        margin-top: 0px !important;
+        width: 2% !important;
+    }
+}
 
-.email-address-cl {
-    .email-id-cl{
+.email-address-cl, .date-cl, .time-cl, .button-cl, .short-text-cl, .number-text-cl {
+    .email-id-cl, .date-id-cl, .time-id-cl, .button-id-cl, .short-text-id-cl, .number-text-id-cl{
         @extend .dis;
         width: 250px;
         float: left;
         
-        .email-id-lab {
+        .email-id-lab, .date-id-lab, .time-id-lab {
             float: left;
         }
         
@@ -606,3 +633,4 @@ $dragColor: #908d8d;
 .Phone-num-cl {
      @extend .commonTopMargin;
 }
+
