@@ -634,3 +634,171 @@ $dragColor: #908d8d;
      @extend .commonTopMargin;
 }
 
+.header-start-cl {
+        background-image: url(img/mmc-web.jpg);
+        background-position: center;
+        background-size:  cover;
+        width: 100%;
+        height: 500px;
+    
+    .hero-btn-cl {
+        @extend .dis;
+        width: 20%;
+        height: 50px;
+        margin-left: 40%;
+        margin-right: 40%;
+        margin-top: 200px;
+        text-align: center;
+        background-color: $baseColor;
+        .btn-start-cl {
+            font-size: 35px;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/*------------------*/
+/* SETUP */
+/*------------------*/
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,
+body{
+    
+    background-color: #fff;
+    color: #555;
+    font-family:  'Titillium Web', 'Arial', sans-serif; /* Could be changed accordingly */
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    /*overflow-y: hidden;*/
+}
+
+
+.img-hold {
+    display: inline-block;
+    max-width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img-hold img {
+    margin-top: 4px;
+    width: 400px;
+    height: 400px;
+}
+
+.img-hold-big {
+    display: inline-block;
+    max-width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.img-hold-big img {
+    margin-top: 4px;
+    max-width: 100%;
+}
+
+*:focus {outline: none;}
+
+/*-----------------------------------*/
+/* CLEAR FLOAT FOR RESPONSIVE DESIGN */
+/*-----------------------------------*/
+
+.clearfix {
+    
+    zoom: 1;
+    
+}
+
+.clearfix:after {
+    
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    
+}
+
+/*----------------------------------------*/
+/* REMOVE TEXT DECORATION FROM ANCHOR TAG */
+/*----------------------------------------*/
+
+a {
+    
+    text-decoration: none;
+    border: none;            /* Not recommended should be combined with hover and active state */
+    outline: none;           /* Not recommended should be combined with hover and active state */
+    
+}
+
+/*----------------------------------------*/
+/* ROW SIZE FOR DESIGN */
+/*----------------------------------------*/
+/* -- 1 Should be Normalize -- */
+/* -- 2 Should be Grid -- */
+/* -- 3 Should be local -- */
+
+/*.row{
+    
+    max-width: 1140px;  Not necessary pixel size, should be according to design 
+    margin: 0 auto;
+    
+}*/
+
+/*-----------------------------------------*/
+/* HEADING ELEMENTS */
+/*-----------------------------------------*/
+
+h1,
+h2,
+h3 {
+    
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+/*-----------------------------------------*/
+/* INPUT ELEMENTS */
+/*-----------------------------------------*/
+
+input[type=text],
+input[type=email],
+input[type=password],
+select,
+textarea{
+    
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+/*-----------------------------------------*/
+/* UL ELEMENTS */
+/*-----------------------------------------*/
+
+ul {
+    list-style: none;
+}
+
+
+
