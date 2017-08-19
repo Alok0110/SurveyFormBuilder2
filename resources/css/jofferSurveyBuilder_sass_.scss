@@ -711,6 +711,20 @@ $dragColor: #908d8d;
             margin-left: 35%;
             text-align: center;
         }
+        
+        .contact-btn-cl {
+            @extend .dis;
+            width: 10%;
+            margin-left: 45%;
+            margin-right: 45%;
+            text-align: center;
+            background-color: $baseColor;
+            color: #dedede;
+            cursor: pointer;
+            &:hover {
+                background-color: $baceHoverColor;
+            }
+        }
     }
 }
 
