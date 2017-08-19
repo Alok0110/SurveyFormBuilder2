@@ -1,4 +1,5 @@
 $baseColor: #8e44ad;
+$baceHoverColor: #7a2a9c;
 $basePanelColor: #3e4652;
 $baseButton: #545f6f;
 $secondaryColor: #e74c3c;
@@ -655,13 +656,64 @@ $dragColor: #908d8d;
             color: #fff;
             cursor: pointer;
         }
+        &:hover {
+            background-color: $baceHoverColor;
+        }
     }
+    
 }
 
 .container-fluid {
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
+
+.survey-mid-cl, .survey-contact-cl {
+    background-color: #dedede;
+}
+
+.survey-top-mid-cl, .survey-mid-cl, .survey-testi-cl, .survey-contact-cl {
+    
+    
+    
+    img {
+        @extend .dis;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .lab-cl {
+        @extend .dis;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 60px;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .para-cl {
+        @extend .dis;
+        width: 80%;
+        font-size: 18px;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        
+        .person-name-cl {
+            @extend .dis;
+            width: 30%;
+            margin-right: 35%;
+            margin-left: 35%;
+            text-align: center;
+        }
+    }
+}
+
 
 /*------------------*/
 /* SETUP */
@@ -681,8 +733,8 @@ body{
     background-color: #fff;
     color: #555;
     font-family:  'Titillium Web', 'Arial', sans-serif; /* Could be changed accordingly */
-    font-weight: 300;
-    font-size: 20px;
+    /*font-weight: 300;*/
+    /*font-size: 15px;*/
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     /*overflow-y: hidden;*/
@@ -779,7 +831,7 @@ h3 {
 /* INPUT ELEMENTS */
 /*-----------------------------------------*/
 
-input[type=text],
+/*input[type=text],
 input[type=email],
 input[type=password],
 select,
@@ -790,7 +842,7 @@ textarea{
     border-radius: 3px;
     border: 1px solid #ccc;
     resize: none;
-}
+}*/
 
 /*-----------------------------------------*/
 /* UL ELEMENTS */
@@ -799,6 +851,5 @@ textarea{
 ul {
     list-style: none;
 }
-
 
 
