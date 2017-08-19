@@ -728,6 +728,23 @@ $dragColor: #908d8d;
     }
 }
 
+.survey-footer-cl {
+    
+    background-color: $secondaryColor;
+    .survey-frm img{
+        @extend .dis;
+        width: 200px;
+        height: auto;
+        float: left;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .copy-rcl p {
+        font-size: 18px;
+        margin-left: 20px;
+        color: #dedede;
+    }
+}
 
 /*------------------*/
 /* SETUP */
