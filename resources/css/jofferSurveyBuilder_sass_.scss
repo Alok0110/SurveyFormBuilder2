@@ -42,7 +42,7 @@ $dragColor: #908d8d;
 .big-cont {
     /*margin-top: 130px;*/
     margin-left: 340px;
-    height: 700px;
+    /*height: 700px;*/
 }
 
 @mixin btn-del {
@@ -67,7 +67,21 @@ $dragColor: #908d8d;
         cursor: pointer;
 }
 
+.show-ele {
+    display: block !important;
+}
+
+.hide-ele {
+    display: none;
+}
+
+.head-li-cl {
+    display: none;
+}
+
 .head-cl {
+    
+    
     
     .heading-cl {
         @extend .dis;
@@ -134,9 +148,10 @@ $dragColor: #908d8d;
     overflow: auto;
     width: 320px;
     height: 500px;
+    float: left;
     /*margin-top: 130px;*/
-    position: fixed;
-    z-index: 999;
+    /*position: fixed;
+    z-index: 999;*/
 }
 
 .element-box-com-cl {
@@ -189,6 +204,9 @@ $dragColor: #908d8d;
 }
 
 .survey-Q-cl {
+    
+    display: none;
+    
     .question-cl {
         @extend .dis;
         @extend .commonTopMargin;
@@ -225,6 +243,8 @@ $dragColor: #908d8d;
 
 .image-uploader-Q-cl {
     
+    display: none;
+    
     .heading-drag-cl {
         @include heading-drag-cl;
         margin-top: 20px !important;
@@ -256,6 +276,9 @@ $dragColor: #908d8d;
 }
 
 .radio-selector-cl {
+    
+    display: none;
+    
     .group-cl {
         @extend .dis;
         margin-top: 4px;
@@ -285,6 +308,8 @@ $dragColor: #908d8d;
 }
 
 .file-uploader-cl {
+    
+    display: none;
     
     .heading-drag-cl {
         @include heading-drag-cl;
@@ -317,6 +342,7 @@ $dragColor: #908d8d;
 }
 
 .text-area-cl {
+    display: none;
     @extend .commonTopMargin;
 }
 
@@ -343,6 +369,9 @@ $dragColor: #908d8d;
 
 
 .checkbox-selector-cl {
+    
+    display: none;
+    
     .group-cl {
         @extend .dis;
         margin-top: 4px;
@@ -372,6 +401,7 @@ $dragColor: #908d8d;
 }
 
 .drop-down-opt-cl {
+    display: none;
     @extend .commonTopMargin;
     width: 420px;
 }
@@ -434,6 +464,9 @@ $dragColor: #908d8d;
 }
 
 .full-name-cl {
+    
+    display: none;
+    
     .full-cont-cl {
         @extend .dis;
         width: 510px;
@@ -477,6 +510,7 @@ $dragColor: #908d8d;
 
 
 .long-text-cl {
+    display: none;
     .long-text-id-cl{
          @extend .dis;
          width: 650px;
@@ -504,7 +538,11 @@ $dragColor: #908d8d;
     }
 }
 
+.number-li-cl, .email-address-li-cl, .date-li-cl, .time-li-cl, .button-li-cl, .short-text-li-cl {
+    display: none;
+}
 .email-address-cl, .date-cl, .time-cl, .button-cl, .short-text-cl, .number-text-cl {
+    /*display: none;*/
     .email-id-cl, .date-id-cl, .time-id-cl, .button-id-cl, .short-text-id-cl, .number-text-id-cl{
         @extend .dis;
         width: 250px;
@@ -542,6 +580,8 @@ $dragColor: #908d8d;
 }
 
 .postal-address-cl {
+    
+    display: none;
     
     .postal-address-id-cl {
         @extend .dis;
@@ -591,6 +631,9 @@ $dragColor: #908d8d;
 }
 
 .Phone-num-cl {
+    
+    display: none;
+    
     .Phone-id-cl {
         .Phone-id-lab {
             float: left;
@@ -743,6 +786,19 @@ $dragColor: #908d8d;
         font-size: 18px;
         margin-left: 20px;
         color: #dedede;
+    }
+}
+
+.container-for-form-ele-cl {
+    border: 1px dashed $baseButton;
+    margin-top: 20px;
+    .drag-here-cl h1{
+        @extend .dis;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        text-align: center;
+        
     }
 }
 

@@ -1,4 +1,4 @@
-.dis, .head-cl .heading-cl, .head-cl .sub-heading-cl, .head-cl .heading-drag-cl, .head-cl .heading-delete-cl, .fixed-slab img, .mid-lab .fsamp-cl, .survey-Q-cl .question-cl, .survey-Q-cl .heading-drag-cl, .survey-Q-cl .heading-delete-cl, .image-uploader-Q-cl .heading-drag-cl, .image-uploader-Q-cl .heading-delete-cl, .radio-selector-cl .group-cl, .radio-selector-cl .heading-drag-cl, .radio-selector-cl .heading-delete-cl, .file-uploader-cl .heading-drag-cl, .file-uploader-cl .heading-delete-cl, .file-uploader-cl .file-upload-holder-cl, .text-area-cl .heading-drag-cl, .text-area-cl .heading-delete-cl, .checkbox-selector-cl .group-cl, .checkbox-selector-cl .heading-drag-cl, .checkbox-selector-cl .heading-delete-cl, .drop-down-opt-cl .DD-opt-txt, .drop-down-opt-cl .heading-drag-cl, .drop-down-opt-cl .heading-delete-cl, .full-name-cl .full-cont-cl, .full-name-cl .heading-drag-cl, .full-name-cl .heading-delete-cl, .long-text-cl .long-text-id-cl, .long-text-cl .heading-drag-cl, .long-text-cl .heading-delete-cl, .email-address-cl .email-id-cl, .email-address-cl .date-id-cl, .email-address-cl .time-id-cl, .email-address-cl .button-id-cl, .email-address-cl .short-text-id-cl, .email-address-cl .number-text-id-cl, .date-cl .email-id-cl, .date-cl .date-id-cl, .date-cl .time-id-cl, .date-cl .button-id-cl, .date-cl .short-text-id-cl, .date-cl .number-text-id-cl, .time-cl .email-id-cl, .time-cl .date-id-cl, .time-cl .time-id-cl, .time-cl .button-id-cl, .time-cl .short-text-id-cl, .time-cl .number-text-id-cl, .button-cl .email-id-cl, .button-cl .date-id-cl, .button-cl .time-id-cl, .button-cl .button-id-cl, .button-cl .short-text-id-cl, .button-cl .number-text-id-cl, .short-text-cl .email-id-cl, .short-text-cl .date-id-cl, .short-text-cl .time-id-cl, .short-text-cl .button-id-cl, .short-text-cl .short-text-id-cl, .short-text-cl .number-text-id-cl, .number-text-cl .email-id-cl, .number-text-cl .date-id-cl, .number-text-cl .time-id-cl, .number-text-cl .button-id-cl, .number-text-cl .short-text-id-cl, .number-text-cl .number-text-id-cl, .email-address-cl .heading-drag-cl, .date-cl .heading-drag-cl, .time-cl .heading-drag-cl, .button-cl .heading-drag-cl, .short-text-cl .heading-drag-cl, .number-text-cl .heading-drag-cl, .email-address-cl .heading-delete-cl, .date-cl .heading-delete-cl, .time-cl .heading-delete-cl, .button-cl .heading-delete-cl, .short-text-cl .heading-delete-cl, .number-text-cl .heading-delete-cl, .postal-address-cl .postal-address-id-cl, .postal-address-cl .postal-address-content .street-add, .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add, .postal-address-cl .heading-drag-cl, .postal-address-cl .heading-delete-cl, .postal-address-cl, .Phone-num-cl .heading-drag-cl, .Phone-num-cl .heading-delete-cl, .header-start-cl .hero-btn-cl, .survey-top-mid-cl img, .survey-mid-cl img, .survey-testi-cl img, .survey-contact-cl img, .survey-top-mid-cl .lab-cl, .survey-mid-cl .lab-cl, .survey-testi-cl .lab-cl, .survey-contact-cl .lab-cl, .survey-top-mid-cl .para-cl, .survey-mid-cl .para-cl, .survey-testi-cl .para-cl, .survey-contact-cl .para-cl, .survey-top-mid-cl .para-cl .person-name-cl, .survey-mid-cl .para-cl .person-name-cl, .survey-testi-cl .para-cl .person-name-cl, .survey-contact-cl .para-cl .person-name-cl, .survey-top-mid-cl .para-cl .contact-btn-cl, .survey-mid-cl .para-cl .contact-btn-cl, .survey-testi-cl .para-cl .contact-btn-cl, .survey-contact-cl .para-cl .contact-btn-cl, .survey-footer-cl .survey-frm img {
+.dis, .head-cl .heading-cl, .head-cl .sub-heading-cl, .head-cl .heading-drag-cl, .head-cl .heading-delete-cl, .fixed-slab img, .mid-lab .fsamp-cl, .survey-Q-cl .question-cl, .survey-Q-cl .heading-drag-cl, .survey-Q-cl .heading-delete-cl, .image-uploader-Q-cl .heading-drag-cl, .image-uploader-Q-cl .heading-delete-cl, .radio-selector-cl .group-cl, .radio-selector-cl .heading-drag-cl, .radio-selector-cl .heading-delete-cl, .file-uploader-cl .heading-drag-cl, .file-uploader-cl .heading-delete-cl, .file-uploader-cl .file-upload-holder-cl, .text-area-cl .heading-drag-cl, .text-area-cl .heading-delete-cl, .checkbox-selector-cl .group-cl, .checkbox-selector-cl .heading-drag-cl, .checkbox-selector-cl .heading-delete-cl, .drop-down-opt-cl .DD-opt-txt, .drop-down-opt-cl .heading-drag-cl, .drop-down-opt-cl .heading-delete-cl, .full-name-cl .full-cont-cl, .full-name-cl .heading-drag-cl, .full-name-cl .heading-delete-cl, .long-text-cl .long-text-id-cl, .long-text-cl .heading-drag-cl, .long-text-cl .heading-delete-cl, .email-address-cl .email-id-cl, .email-address-cl .date-id-cl, .email-address-cl .time-id-cl, .email-address-cl .button-id-cl, .email-address-cl .short-text-id-cl, .email-address-cl .number-text-id-cl, .date-cl .email-id-cl, .date-cl .date-id-cl, .date-cl .time-id-cl, .date-cl .button-id-cl, .date-cl .short-text-id-cl, .date-cl .number-text-id-cl, .time-cl .email-id-cl, .time-cl .date-id-cl, .time-cl .time-id-cl, .time-cl .button-id-cl, .time-cl .short-text-id-cl, .time-cl .number-text-id-cl, .button-cl .email-id-cl, .button-cl .date-id-cl, .button-cl .time-id-cl, .button-cl .button-id-cl, .button-cl .short-text-id-cl, .button-cl .number-text-id-cl, .short-text-cl .email-id-cl, .short-text-cl .date-id-cl, .short-text-cl .time-id-cl, .short-text-cl .button-id-cl, .short-text-cl .short-text-id-cl, .short-text-cl .number-text-id-cl, .number-text-cl .email-id-cl, .number-text-cl .date-id-cl, .number-text-cl .time-id-cl, .number-text-cl .button-id-cl, .number-text-cl .short-text-id-cl, .number-text-cl .number-text-id-cl, .email-address-cl .heading-drag-cl, .date-cl .heading-drag-cl, .time-cl .heading-drag-cl, .button-cl .heading-drag-cl, .short-text-cl .heading-drag-cl, .number-text-cl .heading-drag-cl, .email-address-cl .heading-delete-cl, .date-cl .heading-delete-cl, .time-cl .heading-delete-cl, .button-cl .heading-delete-cl, .short-text-cl .heading-delete-cl, .number-text-cl .heading-delete-cl, .postal-address-cl .postal-address-id-cl, .postal-address-cl .postal-address-content .street-add, .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add, .postal-address-cl .heading-drag-cl, .postal-address-cl .heading-delete-cl, .postal-address-cl, .Phone-num-cl .heading-drag-cl, .Phone-num-cl .heading-delete-cl, .header-start-cl .hero-btn-cl, .survey-top-mid-cl img, .survey-mid-cl img, .survey-testi-cl img, .survey-contact-cl img, .survey-top-mid-cl .lab-cl, .survey-mid-cl .lab-cl, .survey-testi-cl .lab-cl, .survey-contact-cl .lab-cl, .survey-top-mid-cl .para-cl, .survey-mid-cl .para-cl, .survey-testi-cl .para-cl, .survey-contact-cl .para-cl, .survey-top-mid-cl .para-cl .person-name-cl, .survey-mid-cl .para-cl .person-name-cl, .survey-testi-cl .para-cl .person-name-cl, .survey-contact-cl .para-cl .person-name-cl, .survey-top-mid-cl .para-cl .contact-btn-cl, .survey-mid-cl .para-cl .contact-btn-cl, .survey-testi-cl .para-cl .contact-btn-cl, .survey-contact-cl .para-cl .contact-btn-cl, .survey-footer-cl .survey-frm img, .container-for-form-ele-cl .drag-here-cl h1 {
   display: inline-block; }
 
 .disB, .mid-lab, .file-inp-cl input, .text-area-cl .text-grp-cl textarea {
@@ -25,7 +25,16 @@
 .big-cont {
   /*margin-top: 130px;*/
   margin-left: 340px;
-  height: 700px; }
+  /*height: 700px;*/ }
+
+.show-ele {
+  display: block !important; }
+
+.hide-ele {
+  display: none; }
+
+.head-li-cl {
+  display: none; }
 
 .head-cl .heading-cl {
   width: 80%;
@@ -79,9 +88,10 @@
   overflow: auto;
   width: 320px;
   height: 500px;
+  float: left;
   /*margin-top: 130px;*/
-  position: fixed;
-  z-index: 999; }
+  /*position: fixed;
+    z-index: 999;*/ }
 
 .element-box-com-cl, .element-selector-cl .element-box, .element-selector-cl .element-box-cl {
   height: 52px;
@@ -115,51 +125,50 @@
   .mid-lab .fsamp-cl:hover {
     background-color: #C92918; }
 
-.survey-Q-cl .question-cl {
-  width: 80%;
-  height: 40px;
-  font-size: 19px;
-  text-align: left;
-  float: left; }
-
-.survey-Q-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer; }
-
-.survey-Q-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer; }
-
-.survey-Q-cl .btn-del {
-  width: 4%;
-  float: left; }
+.survey-Q-cl {
+  display: none; }
+  .survey-Q-cl .question-cl {
+    width: 80%;
+    height: 40px;
+    font-size: 19px;
+    text-align: left;
+    float: left; }
+  .survey-Q-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer; }
+  .survey-Q-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer; }
+  .survey-Q-cl .btn-del {
+    width: 4%;
+    float: left; }
 
 .image-samp-cl img {
   border: 1px solid #545f6f;
   float: left; }
 
-.image-uploader-Q-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer;
-  margin-top: 20px !important; }
-
-.image-uploader-Q-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer; }
-
-.image-uploader-Q-cl .btn-del {
-  width: 4%;
-  float: left; }
+.image-uploader-Q-cl {
+  display: none; }
+  .image-uploader-Q-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 20px !important; }
+  .image-uploader-Q-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer; }
+  .image-uploader-Q-cl .btn-del {
+    width: 4%;
+    float: left; }
 
 .file-inp-cl input {
   margin-top: 4px; }
@@ -170,64 +179,64 @@
 .group-cl .group-text-cl {
   float: left; }
 
-.radio-selector-cl .group-cl {
-  margin-top: 4px;
-  float: left; }
+.radio-selector-cl {
+  display: none; }
+  .radio-selector-cl .group-cl {
+    margin-top: 4px;
+    float: left; }
+  .radio-selector-cl .group-text-cl {
+    width: 394px;
+    float: left; }
+  .radio-selector-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .radio-selector-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .radio-selector-cl .btn-del {
+    width: 4%;
+    float: left;
+    margin-top: 0px !important;
+    width: 2% !important; }
 
-.radio-selector-cl .group-text-cl {
-  width: 394px;
-  float: left; }
+.file-uploader-cl {
+  display: none; }
+  .file-uploader-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .file-uploader-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .file-uploader-cl .btn-del {
+    width: 4%;
+    float: left;
+    margin-top: 0px !important;
+    width: 2% !important; }
+  .file-uploader-cl .file-upload-holder-cl {
+    width: 397px;
+    float: left;
+    border: 1px solid #545f6f; }
 
-.radio-selector-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.radio-selector-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.radio-selector-cl .btn-del {
-  width: 4%;
-  float: left;
-  margin-top: 0px !important;
-  width: 2% !important; }
-
-.file-uploader-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.file-uploader-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.file-uploader-cl .btn-del {
-  width: 4%;
-  float: left;
-  margin-top: 0px !important;
-  width: 2% !important; }
-
-.file-uploader-cl .file-upload-holder-cl {
-  width: 397px;
-  float: left;
-  border: 1px solid #545f6f; }
+.text-area-cl {
+  display: none; }
 
 .text-area-cl .text-grp-cl textarea {
   float: left; }
@@ -249,38 +258,37 @@
   width: 4%;
   float: left; }
 
-.checkbox-selector-cl .group-cl {
-  margin-top: 4px;
-  float: left; }
-
-.checkbox-selector-cl .group-text-cl {
-  width: 384px;
-  float: left; }
-
-.checkbox-selector-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.checkbox-selector-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.checkbox-selector-cl .btn-del {
-  width: 4%;
-  float: left;
-  margin-top: 0px !important;
-  width: 2% !important; }
+.checkbox-selector-cl {
+  display: none; }
+  .checkbox-selector-cl .group-cl {
+    margin-top: 4px;
+    float: left; }
+  .checkbox-selector-cl .group-text-cl {
+    width: 384px;
+    float: left; }
+  .checkbox-selector-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .checkbox-selector-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .checkbox-selector-cl .btn-del {
+    width: 4%;
+    float: left;
+    margin-top: 0px !important;
+    width: 2% !important; }
 
 .drop-down-opt-cl {
+  display: none;
   width: 420px; }
 
 .drop-down-opt-cl {
@@ -333,183 +341,176 @@
     margin-top: 0px !important;
     width: 2% !important; }
 
-.full-name-cl .full-cont-cl {
-  width: 510px;
-  float: left; }
-  .full-name-cl .full-cont-cl .flab-cl {
-    float: left;
-    margin-right: 4px; }
-  .full-name-cl .full-cont-cl .flab-input-cl {
-    float: left;
-    margin-right: 2px;
-    margin-left: 2px; }
-
-.full-name-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.full-name-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.full-name-cl .btn-del {
-  width: 4%;
-  float: left;
-  margin-top: 0px !important;
-  width: 2% !important; }
-
-.long-text-cl .long-text-id-cl {
-  width: 650px;
-  float: left; }
-
-.long-text-cl .long-text-inp-cl {
-  width: 620px; }
-
-.long-text-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.long-text-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.long-text-cl .btn-del {
-  width: 4%;
-  float: left;
-  margin-top: 0px !important;
-  width: 2% !important; }
-
-.email-address-cl .email-id-cl, .email-address-cl .date-id-cl, .email-address-cl .time-id-cl, .email-address-cl .button-id-cl, .email-address-cl .short-text-id-cl, .email-address-cl .number-text-id-cl, .date-cl .email-id-cl, .date-cl .date-id-cl, .date-cl .time-id-cl, .date-cl .button-id-cl, .date-cl .short-text-id-cl, .date-cl .number-text-id-cl, .time-cl .email-id-cl, .time-cl .date-id-cl, .time-cl .time-id-cl, .time-cl .button-id-cl, .time-cl .short-text-id-cl, .time-cl .number-text-id-cl, .button-cl .email-id-cl, .button-cl .date-id-cl, .button-cl .time-id-cl, .button-cl .button-id-cl, .button-cl .short-text-id-cl, .button-cl .number-text-id-cl, .short-text-cl .email-id-cl, .short-text-cl .date-id-cl, .short-text-cl .time-id-cl, .short-text-cl .button-id-cl, .short-text-cl .short-text-id-cl, .short-text-cl .number-text-id-cl, .number-text-cl .email-id-cl, .number-text-cl .date-id-cl, .number-text-cl .time-id-cl, .number-text-cl .button-id-cl, .number-text-cl .short-text-id-cl, .number-text-cl .number-text-id-cl {
-  width: 250px;
-  float: left; }
-  .email-address-cl .email-id-cl .email-id-lab, .email-address-cl .email-id-cl .date-id-lab, .email-address-cl .email-id-cl .time-id-lab, .email-address-cl .date-id-cl .email-id-lab, .email-address-cl .date-id-cl .date-id-lab, .email-address-cl .date-id-cl .time-id-lab, .email-address-cl .time-id-cl .email-id-lab, .email-address-cl .time-id-cl .date-id-lab, .email-address-cl .time-id-cl .time-id-lab, .email-address-cl .button-id-cl .email-id-lab, .email-address-cl .button-id-cl .date-id-lab, .email-address-cl .button-id-cl .time-id-lab, .email-address-cl .short-text-id-cl .email-id-lab, .email-address-cl .short-text-id-cl .date-id-lab, .email-address-cl .short-text-id-cl .time-id-lab, .email-address-cl .number-text-id-cl .email-id-lab, .email-address-cl .number-text-id-cl .date-id-lab, .email-address-cl .number-text-id-cl .time-id-lab, .date-cl .email-id-cl .email-id-lab, .date-cl .email-id-cl .date-id-lab, .date-cl .email-id-cl .time-id-lab, .date-cl .date-id-cl .email-id-lab, .date-cl .date-id-cl .date-id-lab, .date-cl .date-id-cl .time-id-lab, .date-cl .time-id-cl .email-id-lab, .date-cl .time-id-cl .date-id-lab, .date-cl .time-id-cl .time-id-lab, .date-cl .button-id-cl .email-id-lab, .date-cl .button-id-cl .date-id-lab, .date-cl .button-id-cl .time-id-lab, .date-cl .short-text-id-cl .email-id-lab, .date-cl .short-text-id-cl .date-id-lab, .date-cl .short-text-id-cl .time-id-lab, .date-cl .number-text-id-cl .email-id-lab, .date-cl .number-text-id-cl .date-id-lab, .date-cl .number-text-id-cl .time-id-lab, .time-cl .email-id-cl .email-id-lab, .time-cl .email-id-cl .date-id-lab, .time-cl .email-id-cl .time-id-lab, .time-cl .date-id-cl .email-id-lab, .time-cl .date-id-cl .date-id-lab, .time-cl .date-id-cl .time-id-lab, .time-cl .time-id-cl .email-id-lab, .time-cl .time-id-cl .date-id-lab, .time-cl .time-id-cl .time-id-lab, .time-cl .button-id-cl .email-id-lab, .time-cl .button-id-cl .date-id-lab, .time-cl .button-id-cl .time-id-lab, .time-cl .short-text-id-cl .email-id-lab, .time-cl .short-text-id-cl .date-id-lab, .time-cl .short-text-id-cl .time-id-lab, .time-cl .number-text-id-cl .email-id-lab, .time-cl .number-text-id-cl .date-id-lab, .time-cl .number-text-id-cl .time-id-lab, .button-cl .email-id-cl .email-id-lab, .button-cl .email-id-cl .date-id-lab, .button-cl .email-id-cl .time-id-lab, .button-cl .date-id-cl .email-id-lab, .button-cl .date-id-cl .date-id-lab, .button-cl .date-id-cl .time-id-lab, .button-cl .time-id-cl .email-id-lab, .button-cl .time-id-cl .date-id-lab, .button-cl .time-id-cl .time-id-lab, .button-cl .button-id-cl .email-id-lab, .button-cl .button-id-cl .date-id-lab, .button-cl .button-id-cl .time-id-lab, .button-cl .short-text-id-cl .email-id-lab, .button-cl .short-text-id-cl .date-id-lab, .button-cl .short-text-id-cl .time-id-lab, .button-cl .number-text-id-cl .email-id-lab, .button-cl .number-text-id-cl .date-id-lab, .button-cl .number-text-id-cl .time-id-lab, .short-text-cl .email-id-cl .email-id-lab, .short-text-cl .email-id-cl .date-id-lab, .short-text-cl .email-id-cl .time-id-lab, .short-text-cl .date-id-cl .email-id-lab, .short-text-cl .date-id-cl .date-id-lab, .short-text-cl .date-id-cl .time-id-lab, .short-text-cl .time-id-cl .email-id-lab, .short-text-cl .time-id-cl .date-id-lab, .short-text-cl .time-id-cl .time-id-lab, .short-text-cl .button-id-cl .email-id-lab, .short-text-cl .button-id-cl .date-id-lab, .short-text-cl .button-id-cl .time-id-lab, .short-text-cl .short-text-id-cl .email-id-lab, .short-text-cl .short-text-id-cl .date-id-lab, .short-text-cl .short-text-id-cl .time-id-lab, .short-text-cl .number-text-id-cl .email-id-lab, .short-text-cl .number-text-id-cl .date-id-lab, .short-text-cl .number-text-id-cl .time-id-lab, .number-text-cl .email-id-cl .email-id-lab, .number-text-cl .email-id-cl .date-id-lab, .number-text-cl .email-id-cl .time-id-lab, .number-text-cl .date-id-cl .email-id-lab, .number-text-cl .date-id-cl .date-id-lab, .number-text-cl .date-id-cl .time-id-lab, .number-text-cl .time-id-cl .email-id-lab, .number-text-cl .time-id-cl .date-id-lab, .number-text-cl .time-id-cl .time-id-lab, .number-text-cl .button-id-cl .email-id-lab, .number-text-cl .button-id-cl .date-id-lab, .number-text-cl .button-id-cl .time-id-lab, .number-text-cl .short-text-id-cl .email-id-lab, .number-text-cl .short-text-id-cl .date-id-lab, .number-text-cl .short-text-id-cl .time-id-lab, .number-text-cl .number-text-id-cl .email-id-lab, .number-text-cl .number-text-id-cl .date-id-lab, .number-text-cl .number-text-id-cl .time-id-lab {
+.full-name-cl {
+  display: none; }
+  .full-name-cl .full-cont-cl {
+    width: 510px;
     float: left; }
-  .email-address-cl .email-id-cl .email-id-inp, .email-address-cl .date-id-cl .email-id-inp, .email-address-cl .time-id-cl .email-id-inp, .email-address-cl .button-id-cl .email-id-inp, .email-address-cl .short-text-id-cl .email-id-inp, .email-address-cl .number-text-id-cl .email-id-inp, .date-cl .email-id-cl .email-id-inp, .date-cl .date-id-cl .email-id-inp, .date-cl .time-id-cl .email-id-inp, .date-cl .button-id-cl .email-id-inp, .date-cl .short-text-id-cl .email-id-inp, .date-cl .number-text-id-cl .email-id-inp, .time-cl .email-id-cl .email-id-inp, .time-cl .date-id-cl .email-id-inp, .time-cl .time-id-cl .email-id-inp, .time-cl .button-id-cl .email-id-inp, .time-cl .short-text-id-cl .email-id-inp, .time-cl .number-text-id-cl .email-id-inp, .button-cl .email-id-cl .email-id-inp, .button-cl .date-id-cl .email-id-inp, .button-cl .time-id-cl .email-id-inp, .button-cl .button-id-cl .email-id-inp, .button-cl .short-text-id-cl .email-id-inp, .button-cl .number-text-id-cl .email-id-inp, .short-text-cl .email-id-cl .email-id-inp, .short-text-cl .date-id-cl .email-id-inp, .short-text-cl .time-id-cl .email-id-inp, .short-text-cl .button-id-cl .email-id-inp, .short-text-cl .short-text-id-cl .email-id-inp, .short-text-cl .number-text-id-cl .email-id-inp, .number-text-cl .email-id-cl .email-id-inp, .number-text-cl .date-id-cl .email-id-inp, .number-text-cl .time-id-cl .email-id-inp, .number-text-cl .button-id-cl .email-id-inp, .number-text-cl .short-text-id-cl .email-id-inp, .number-text-cl .number-text-id-cl .email-id-inp {
+    .full-name-cl .full-cont-cl .flab-cl {
+      float: left;
+      margin-right: 4px; }
+    .full-name-cl .full-cont-cl .flab-input-cl {
+      float: left;
+      margin-right: 2px;
+      margin-left: 2px; }
+  .full-name-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .full-name-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .full-name-cl .btn-del {
+    width: 4%;
     float: left;
-    margin-right: 4px;
-    margin-left: 4px; }
+    margin-top: 0px !important;
+    width: 2% !important; }
 
-.email-address-cl .heading-drag-cl, .date-cl .heading-drag-cl, .time-cl .heading-drag-cl, .button-cl .heading-drag-cl, .short-text-cl .heading-drag-cl, .number-text-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
+.long-text-cl {
+  display: none; }
+  .long-text-cl .long-text-id-cl {
+    width: 650px;
+    float: left; }
+  .long-text-cl .long-text-inp-cl {
+    width: 620px; }
+  .long-text-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .long-text-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .long-text-cl .btn-del {
+    width: 4%;
+    float: left;
+    margin-top: 0px !important;
+    width: 2% !important; }
 
-.email-address-cl .heading-delete-cl, .date-cl .heading-delete-cl, .time-cl .heading-delete-cl, .button-cl .heading-delete-cl, .short-text-cl .heading-delete-cl, .number-text-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
+.number-li-cl, .email-address-li-cl, .date-li-cl, .time-li-cl, .button-li-cl, .short-text-li-cl {
+  display: none; }
 
-.email-address-cl .btn-del, .date-cl .btn-del, .time-cl .btn-del, .button-cl .btn-del, .short-text-cl .btn-del, .number-text-cl .btn-del {
-  width: 4%;
-  float: left;
-  margin-top: 0px !important;
-  width: 2% !important; }
+.email-address-cl, .date-cl, .time-cl, .button-cl, .short-text-cl, .number-text-cl {
+  /*display: none;*/ }
+  .email-address-cl .email-id-cl, .email-address-cl .date-id-cl, .email-address-cl .time-id-cl, .email-address-cl .button-id-cl, .email-address-cl .short-text-id-cl, .email-address-cl .number-text-id-cl, .date-cl .email-id-cl, .date-cl .date-id-cl, .date-cl .time-id-cl, .date-cl .button-id-cl, .date-cl .short-text-id-cl, .date-cl .number-text-id-cl, .time-cl .email-id-cl, .time-cl .date-id-cl, .time-cl .time-id-cl, .time-cl .button-id-cl, .time-cl .short-text-id-cl, .time-cl .number-text-id-cl, .button-cl .email-id-cl, .button-cl .date-id-cl, .button-cl .time-id-cl, .button-cl .button-id-cl, .button-cl .short-text-id-cl, .button-cl .number-text-id-cl, .short-text-cl .email-id-cl, .short-text-cl .date-id-cl, .short-text-cl .time-id-cl, .short-text-cl .button-id-cl, .short-text-cl .short-text-id-cl, .short-text-cl .number-text-id-cl, .number-text-cl .email-id-cl, .number-text-cl .date-id-cl, .number-text-cl .time-id-cl, .number-text-cl .button-id-cl, .number-text-cl .short-text-id-cl, .number-text-cl .number-text-id-cl {
+    width: 250px;
+    float: left; }
+    .email-address-cl .email-id-cl .email-id-lab, .email-address-cl .email-id-cl .date-id-lab, .email-address-cl .email-id-cl .time-id-lab, .email-address-cl .date-id-cl .email-id-lab, .email-address-cl .date-id-cl .date-id-lab, .email-address-cl .date-id-cl .time-id-lab, .email-address-cl .time-id-cl .email-id-lab, .email-address-cl .time-id-cl .date-id-lab, .email-address-cl .time-id-cl .time-id-lab, .email-address-cl .button-id-cl .email-id-lab, .email-address-cl .button-id-cl .date-id-lab, .email-address-cl .button-id-cl .time-id-lab, .email-address-cl .short-text-id-cl .email-id-lab, .email-address-cl .short-text-id-cl .date-id-lab, .email-address-cl .short-text-id-cl .time-id-lab, .email-address-cl .number-text-id-cl .email-id-lab, .email-address-cl .number-text-id-cl .date-id-lab, .email-address-cl .number-text-id-cl .time-id-lab, .date-cl .email-id-cl .email-id-lab, .date-cl .email-id-cl .date-id-lab, .date-cl .email-id-cl .time-id-lab, .date-cl .date-id-cl .email-id-lab, .date-cl .date-id-cl .date-id-lab, .date-cl .date-id-cl .time-id-lab, .date-cl .time-id-cl .email-id-lab, .date-cl .time-id-cl .date-id-lab, .date-cl .time-id-cl .time-id-lab, .date-cl .button-id-cl .email-id-lab, .date-cl .button-id-cl .date-id-lab, .date-cl .button-id-cl .time-id-lab, .date-cl .short-text-id-cl .email-id-lab, .date-cl .short-text-id-cl .date-id-lab, .date-cl .short-text-id-cl .time-id-lab, .date-cl .number-text-id-cl .email-id-lab, .date-cl .number-text-id-cl .date-id-lab, .date-cl .number-text-id-cl .time-id-lab, .time-cl .email-id-cl .email-id-lab, .time-cl .email-id-cl .date-id-lab, .time-cl .email-id-cl .time-id-lab, .time-cl .date-id-cl .email-id-lab, .time-cl .date-id-cl .date-id-lab, .time-cl .date-id-cl .time-id-lab, .time-cl .time-id-cl .email-id-lab, .time-cl .time-id-cl .date-id-lab, .time-cl .time-id-cl .time-id-lab, .time-cl .button-id-cl .email-id-lab, .time-cl .button-id-cl .date-id-lab, .time-cl .button-id-cl .time-id-lab, .time-cl .short-text-id-cl .email-id-lab, .time-cl .short-text-id-cl .date-id-lab, .time-cl .short-text-id-cl .time-id-lab, .time-cl .number-text-id-cl .email-id-lab, .time-cl .number-text-id-cl .date-id-lab, .time-cl .number-text-id-cl .time-id-lab, .button-cl .email-id-cl .email-id-lab, .button-cl .email-id-cl .date-id-lab, .button-cl .email-id-cl .time-id-lab, .button-cl .date-id-cl .email-id-lab, .button-cl .date-id-cl .date-id-lab, .button-cl .date-id-cl .time-id-lab, .button-cl .time-id-cl .email-id-lab, .button-cl .time-id-cl .date-id-lab, .button-cl .time-id-cl .time-id-lab, .button-cl .button-id-cl .email-id-lab, .button-cl .button-id-cl .date-id-lab, .button-cl .button-id-cl .time-id-lab, .button-cl .short-text-id-cl .email-id-lab, .button-cl .short-text-id-cl .date-id-lab, .button-cl .short-text-id-cl .time-id-lab, .button-cl .number-text-id-cl .email-id-lab, .button-cl .number-text-id-cl .date-id-lab, .button-cl .number-text-id-cl .time-id-lab, .short-text-cl .email-id-cl .email-id-lab, .short-text-cl .email-id-cl .date-id-lab, .short-text-cl .email-id-cl .time-id-lab, .short-text-cl .date-id-cl .email-id-lab, .short-text-cl .date-id-cl .date-id-lab, .short-text-cl .date-id-cl .time-id-lab, .short-text-cl .time-id-cl .email-id-lab, .short-text-cl .time-id-cl .date-id-lab, .short-text-cl .time-id-cl .time-id-lab, .short-text-cl .button-id-cl .email-id-lab, .short-text-cl .button-id-cl .date-id-lab, .short-text-cl .button-id-cl .time-id-lab, .short-text-cl .short-text-id-cl .email-id-lab, .short-text-cl .short-text-id-cl .date-id-lab, .short-text-cl .short-text-id-cl .time-id-lab, .short-text-cl .number-text-id-cl .email-id-lab, .short-text-cl .number-text-id-cl .date-id-lab, .short-text-cl .number-text-id-cl .time-id-lab, .number-text-cl .email-id-cl .email-id-lab, .number-text-cl .email-id-cl .date-id-lab, .number-text-cl .email-id-cl .time-id-lab, .number-text-cl .date-id-cl .email-id-lab, .number-text-cl .date-id-cl .date-id-lab, .number-text-cl .date-id-cl .time-id-lab, .number-text-cl .time-id-cl .email-id-lab, .number-text-cl .time-id-cl .date-id-lab, .number-text-cl .time-id-cl .time-id-lab, .number-text-cl .button-id-cl .email-id-lab, .number-text-cl .button-id-cl .date-id-lab, .number-text-cl .button-id-cl .time-id-lab, .number-text-cl .short-text-id-cl .email-id-lab, .number-text-cl .short-text-id-cl .date-id-lab, .number-text-cl .short-text-id-cl .time-id-lab, .number-text-cl .number-text-id-cl .email-id-lab, .number-text-cl .number-text-id-cl .date-id-lab, .number-text-cl .number-text-id-cl .time-id-lab {
+      float: left; }
+    .email-address-cl .email-id-cl .email-id-inp, .email-address-cl .date-id-cl .email-id-inp, .email-address-cl .time-id-cl .email-id-inp, .email-address-cl .button-id-cl .email-id-inp, .email-address-cl .short-text-id-cl .email-id-inp, .email-address-cl .number-text-id-cl .email-id-inp, .date-cl .email-id-cl .email-id-inp, .date-cl .date-id-cl .email-id-inp, .date-cl .time-id-cl .email-id-inp, .date-cl .button-id-cl .email-id-inp, .date-cl .short-text-id-cl .email-id-inp, .date-cl .number-text-id-cl .email-id-inp, .time-cl .email-id-cl .email-id-inp, .time-cl .date-id-cl .email-id-inp, .time-cl .time-id-cl .email-id-inp, .time-cl .button-id-cl .email-id-inp, .time-cl .short-text-id-cl .email-id-inp, .time-cl .number-text-id-cl .email-id-inp, .button-cl .email-id-cl .email-id-inp, .button-cl .date-id-cl .email-id-inp, .button-cl .time-id-cl .email-id-inp, .button-cl .button-id-cl .email-id-inp, .button-cl .short-text-id-cl .email-id-inp, .button-cl .number-text-id-cl .email-id-inp, .short-text-cl .email-id-cl .email-id-inp, .short-text-cl .date-id-cl .email-id-inp, .short-text-cl .time-id-cl .email-id-inp, .short-text-cl .button-id-cl .email-id-inp, .short-text-cl .short-text-id-cl .email-id-inp, .short-text-cl .number-text-id-cl .email-id-inp, .number-text-cl .email-id-cl .email-id-inp, .number-text-cl .date-id-cl .email-id-inp, .number-text-cl .time-id-cl .email-id-inp, .number-text-cl .button-id-cl .email-id-inp, .number-text-cl .short-text-id-cl .email-id-inp, .number-text-cl .number-text-id-cl .email-id-inp {
+      float: left;
+      margin-right: 4px;
+      margin-left: 4px; }
+  .email-address-cl .heading-drag-cl, .date-cl .heading-drag-cl, .time-cl .heading-drag-cl, .button-cl .heading-drag-cl, .short-text-cl .heading-drag-cl, .number-text-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .email-address-cl .heading-delete-cl, .date-cl .heading-delete-cl, .time-cl .heading-delete-cl, .button-cl .heading-delete-cl, .short-text-cl .heading-delete-cl, .number-text-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .email-address-cl .btn-del, .date-cl .btn-del, .time-cl .btn-del, .button-cl .btn-del, .short-text-cl .btn-del, .number-text-cl .btn-del {
+    width: 4%;
+    float: left;
+    margin-top: 0px !important;
+    width: 2% !important; }
 
-.postal-address-cl .postal-address-id-cl {
-  width: 384px;
-  float: left; }
-
-.postal-address-cl .postal-address-content {
-  float: left; }
-  .postal-address-cl .postal-address-content .street-add, .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add {
+.postal-address-cl {
+  display: none; }
+  .postal-address-cl .postal-address-id-cl {
     width: 384px;
+    float: left; }
+  .postal-address-cl .postal-address-content {
+    float: left; }
+    .postal-address-cl .postal-address-content .street-add, .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add {
+      width: 384px;
+      float: left;
+      margin-top: 4px; }
+    .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add {
+      width: 190px !important; }
+    .postal-address-cl .postal-address-content .state-add {
+      margin-left: 3px; }
+  .postal-address-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .postal-address-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .postal-address-cl .btn-del {
+    width: 4%;
     float: left;
-    margin-top: 4px; }
-  .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add {
-    width: 190px !important; }
-  .postal-address-cl .postal-address-content .state-add {
-    margin-left: 3px; }
-
-.postal-address-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.postal-address-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.postal-address-cl .btn-del {
-  width: 4%;
-  float: left;
-  margin-top: 0px !important;
-  width: 2% !important; }
+    margin-top: 0px !important;
+    width: 2% !important; }
 
 .postal-address-cl {
   width: 404px; }
 
-.Phone-num-cl .Phone-id-cl .Phone-id-lab {
-  float: left; }
-
-.Phone-num-cl .Phone-id-cl .code-inp {
-  float: left;
-  margin-left: 4px;
-  width: 50px; }
-
-.Phone-num-cl .Phone-id-cl .num-inp {
-  float: left;
-  width: 224px; }
-
-.Phone-num-cl .Phone-id-cl span {
-  float: left;
-  margin-left: 2px;
-  margin-right: 2px; }
-
-.Phone-num-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.Phone-num-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.Phone-num-cl .btn-del {
-  width: 4%;
-  float: left;
-  margin-top: 0px !important;
-  width: 2% !important; }
+.Phone-num-cl {
+  display: none; }
+  .Phone-num-cl .Phone-id-cl .Phone-id-lab {
+    float: left; }
+  .Phone-num-cl .Phone-id-cl .code-inp {
+    float: left;
+    margin-left: 4px;
+    width: 50px; }
+  .Phone-num-cl .Phone-id-cl .num-inp {
+    float: left;
+    width: 224px; }
+  .Phone-num-cl .Phone-id-cl span {
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px; }
+  .Phone-num-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .Phone-num-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .Phone-num-cl .btn-del {
+    width: 4%;
+    float: left;
+    margin-top: 0px !important;
+    width: 2% !important; }
 
 .header-start-cl {
   background-image: url(img/mmc-web.jpg);
@@ -591,6 +592,15 @@
     font-size: 18px;
     margin-left: 20px;
     color: #dedede; }
+
+.container-for-form-ele-cl {
+  border: 1px dashed #545f6f;
+  margin-top: 20px; }
+  .container-for-form-ele-cl .drag-here-cl h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center; }
 
 /*------------------*/
 /* SETUP */
