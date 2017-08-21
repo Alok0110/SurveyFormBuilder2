@@ -103,9 +103,13 @@
   background-color: #3e4652; }
 
 .element-selector-cl .element-box-cl {
+  z-index: 999;
   background-color: #545f6f;
   border-color: #3e4652;
   border: 0.5px solid #3e4652; }
+
+li {
+  list-style: none; }
 
 .mid-lab {
   background-color: #e74c3c;
@@ -125,8 +129,11 @@
   .mid-lab .fsamp-cl:hover {
     background-color: #C92918; }
 
-.survey-Q-cl {
+.survey-Q-li-cl {
   display: none; }
+
+.survey-Q-cl {
+  /*display: none;*/ }
   .survey-Q-cl .question-cl {
     width: 80%;
     height: 40px;
@@ -152,8 +159,11 @@
   border: 1px solid #545f6f;
   float: left; }
 
-.image-uploader-Q-cl {
+.image-uploader-Q-li-cl {
   display: none; }
+
+.image-uploader-Q-cl {
+  /*display: none;*/ }
   .image-uploader-Q-cl .heading-drag-cl {
     height: 30px;
     margin-left: 2px;
@@ -179,8 +189,11 @@
 .group-cl .group-text-cl {
   float: left; }
 
-.radio-selector-cl {
+.radio-selector-li-cl {
   display: none; }
+
+.radio-selector-cl {
+  /*display: none;*/ }
   .radio-selector-cl .group-cl {
     margin-top: 4px;
     float: left; }
@@ -208,8 +221,11 @@
     margin-top: 0px !important;
     width: 2% !important; }
 
-.file-uploader-cl {
+.file-uploader-li-cl {
   display: none; }
+
+.file-uploader-cl {
+  /*display: none;*/ }
   .file-uploader-cl .heading-drag-cl {
     height: 30px;
     margin-left: 2px;
@@ -235,8 +251,11 @@
     float: left;
     border: 1px solid #545f6f; }
 
-.text-area-cl {
+.text-area-li-cl {
   display: none; }
+
+.text-area-cl {
+  /*display: none;*/ }
 
 .text-area-cl .text-grp-cl textarea {
   float: left; }
@@ -258,8 +277,11 @@
   width: 4%;
   float: left; }
 
-.checkbox-selector-cl {
+.checkbox-selector-li-cl {
   display: none; }
+
+.checkbox-selector-cl {
+  /*display: none;*/ }
   .checkbox-selector-cl .group-cl {
     margin-top: 4px;
     float: left; }
@@ -287,8 +309,11 @@
     margin-top: 0px !important;
     width: 2% !important; }
 
+.drop-down-opt-li-cl {
+  display: none; }
+
 .drop-down-opt-cl {
-  display: none;
+  /*display: none;*/
   width: 420px; }
 
 .drop-down-opt-cl {
@@ -341,66 +366,75 @@
     margin-top: 0px !important;
     width: 2% !important; }
 
-.full-name-cl {
+.full-name-li-cl {
   display: none; }
-  .full-name-cl .full-cont-cl {
-    width: 510px;
-    float: left; }
-    .full-name-cl .full-cont-cl .flab-cl {
-      float: left;
-      margin-right: 4px; }
-    .full-name-cl .full-cont-cl .flab-input-cl {
-      float: left;
-      margin-right: 2px;
-      margin-left: 2px; }
-  .full-name-cl .heading-drag-cl {
-    height: 30px;
-    margin-left: 2px;
-    font-size: 30px;
-    cursor: pointer;
-    height: 10px !important;
-    font-size: 14px !important; }
-  .full-name-cl .heading-delete-cl {
-    height: 30px;
-    margin-left: 2px;
-    font-size: 30px;
-    color: #e74c3c;
-    cursor: pointer;
-    height: 10px !important;
-    font-size: 14px !important; }
-  .full-name-cl .btn-del {
-    width: 4%;
-    float: left;
-    margin-top: 0px !important;
-    width: 2% !important; }
 
-.long-text-cl {
-  display: none; }
-  .long-text-cl .long-text-id-cl {
-    width: 650px;
-    float: left; }
-  .long-text-cl .long-text-inp-cl {
-    width: 620px; }
-  .long-text-cl .heading-drag-cl {
-    height: 30px;
-    margin-left: 2px;
-    font-size: 30px;
-    cursor: pointer;
-    height: 10px !important;
-    font-size: 14px !important; }
-  .long-text-cl .heading-delete-cl {
-    height: 30px;
-    margin-left: 2px;
-    font-size: 30px;
-    color: #e74c3c;
-    cursor: pointer;
-    height: 10px !important;
-    font-size: 14px !important; }
-  .long-text-cl .btn-del {
-    width: 4%;
+.full-name-cl .full-cont-cl {
+  width: 510px;
+  float: left; }
+  .full-name-cl .full-cont-cl .flab-cl {
     float: left;
-    margin-top: 0px !important;
-    width: 2% !important; }
+    margin-right: 4px; }
+  .full-name-cl .full-cont-cl .flab-input-cl {
+    float: left;
+    margin-right: 2px;
+    margin-left: 2px; }
+
+.full-name-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.full-name-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.full-name-cl .btn-del {
+  width: 4%;
+  float: left;
+  margin-top: 0px !important;
+  width: 2% !important; }
+
+.long-text-li-cl {
+  display: none; }
+
+.long-text-cl .long-text-id-cl {
+  width: 650px;
+  float: left; }
+
+.long-text-cl .long-text-inp-cl {
+  width: 620px; }
+
+.long-text-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.long-text-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.long-text-cl .btn-del {
+  width: 4%;
+  float: left;
+  margin-top: 0px !important;
+  width: 2% !important; }
 
 .number-li-cl, .email-address-li-cl, .date-li-cl, .time-li-cl, .button-li-cl, .short-text-li-cl {
   display: none; }
@@ -437,80 +471,92 @@
     margin-top: 0px !important;
     width: 2% !important; }
 
-.postal-address-cl {
+.postal-address-li-cl {
   display: none; }
-  .postal-address-cl .postal-address-id-cl {
+
+.postal-address-cl .postal-address-id-cl {
+  width: 384px;
+  float: left; }
+
+.postal-address-cl .postal-address-content {
+  float: left; }
+  .postal-address-cl .postal-address-content .street-add, .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add {
     width: 384px;
-    float: left; }
-  .postal-address-cl .postal-address-content {
-    float: left; }
-    .postal-address-cl .postal-address-content .street-add, .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add {
-      width: 384px;
-      float: left;
-      margin-top: 4px; }
-    .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add {
-      width: 190px !important; }
-    .postal-address-cl .postal-address-content .state-add {
-      margin-left: 3px; }
-  .postal-address-cl .heading-drag-cl {
-    height: 30px;
-    margin-left: 2px;
-    font-size: 30px;
-    cursor: pointer;
-    height: 10px !important;
-    font-size: 14px !important; }
-  .postal-address-cl .heading-delete-cl {
-    height: 30px;
-    margin-left: 2px;
-    font-size: 30px;
-    color: #e74c3c;
-    cursor: pointer;
-    height: 10px !important;
-    font-size: 14px !important; }
-  .postal-address-cl .btn-del {
-    width: 4%;
     float: left;
-    margin-top: 0px !important;
-    width: 2% !important; }
+    margin-top: 4px; }
+  .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add {
+    width: 190px !important; }
+  .postal-address-cl .postal-address-content .state-add {
+    margin-left: 3px; }
+
+.postal-address-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.postal-address-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.postal-address-cl .btn-del {
+  width: 4%;
+  float: left;
+  margin-top: 0px !important;
+  width: 2% !important; }
 
 .postal-address-cl {
   width: 404px; }
 
-.Phone-num-cl {
+.Phone-num-li-cl {
   display: none; }
-  .Phone-num-cl .Phone-id-cl .Phone-id-lab {
-    float: left; }
-  .Phone-num-cl .Phone-id-cl .code-inp {
-    float: left;
-    margin-left: 4px;
-    width: 50px; }
-  .Phone-num-cl .Phone-id-cl .num-inp {
-    float: left;
-    width: 224px; }
-  .Phone-num-cl .Phone-id-cl span {
-    float: left;
-    margin-left: 2px;
-    margin-right: 2px; }
-  .Phone-num-cl .heading-drag-cl {
-    height: 30px;
-    margin-left: 2px;
-    font-size: 30px;
-    cursor: pointer;
-    height: 10px !important;
-    font-size: 14px !important; }
-  .Phone-num-cl .heading-delete-cl {
-    height: 30px;
-    margin-left: 2px;
-    font-size: 30px;
-    color: #e74c3c;
-    cursor: pointer;
-    height: 10px !important;
-    font-size: 14px !important; }
-  .Phone-num-cl .btn-del {
-    width: 4%;
-    float: left;
-    margin-top: 0px !important;
-    width: 2% !important; }
+
+.Phone-num-cl .Phone-id-cl .Phone-id-lab {
+  float: left; }
+
+.Phone-num-cl .Phone-id-cl .code-inp {
+  float: left;
+  margin-left: 4px;
+  width: 50px; }
+
+.Phone-num-cl .Phone-id-cl .num-inp {
+  float: left;
+  width: 224px; }
+
+.Phone-num-cl .Phone-id-cl span {
+  float: left;
+  margin-left: 2px;
+  margin-right: 2px; }
+
+.Phone-num-cl .heading-drag-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.Phone-num-cl .heading-delete-cl {
+  height: 30px;
+  margin-left: 2px;
+  font-size: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  height: 10px !important;
+  font-size: 14px !important; }
+
+.Phone-num-cl .btn-del {
+  width: 4%;
+  float: left;
+  margin-top: 0px !important;
+  width: 2% !important; }
 
 .header-start-cl {
   background-image: url(img/mmc-web.jpg);

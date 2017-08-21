@@ -169,11 +169,16 @@ $dragColor: #908d8d;
     
     .element-box-cl {
         @extend .element-box-com-cl;
+        z-index: 999;
         background-color: $baseButton;
         border-color: $basePanelColor;
         border: 0.5px solid $basePanelColor;
     }
     
+}
+
+li {
+   list-style: none;
 }
 
 .mid-lab {
@@ -203,9 +208,13 @@ $dragColor: #908d8d;
     
 }
 
+.survey-Q-li-cl {
+    display: none;
+}
+
 .survey-Q-cl {
     
-    display: none;
+    /*display: none;*/
     
     .question-cl {
         @extend .dis;
@@ -241,9 +250,13 @@ $dragColor: #908d8d;
     
 }
 
+.image-uploader-Q-li-cl {
+    display: none;
+}
+
 .image-uploader-Q-cl {
     
-    display: none;
+    /*display: none;*/
     
     .heading-drag-cl {
         @include heading-drag-cl;
@@ -275,9 +288,13 @@ $dragColor: #908d8d;
     }
 }
 
+.radio-selector-li-cl {
+    display: none;
+}
+
 .radio-selector-cl {
     
-    display: none;
+    /*display: none;*/
     
     .group-cl {
         @extend .dis;
@@ -307,9 +324,13 @@ $dragColor: #908d8d;
     }
 }
 
+.file-uploader-li-cl {
+    display: none;
+}
+
 .file-uploader-cl {
     
-    display: none;
+    /*display: none;*/
     
     .heading-drag-cl {
         @include heading-drag-cl;
@@ -341,8 +362,12 @@ $dragColor: #908d8d;
     @extend .commonTopMargin;
 }
 
-.text-area-cl {
+.text-area-li-cl {
     display: none;
+}
+
+.text-area-cl {
+    /*display: none;*/
     @extend .commonTopMargin;
 }
 
@@ -368,9 +393,13 @@ $dragColor: #908d8d;
 }
 
 
+.checkbox-selector-li-cl {
+    display: none;
+}
+
 .checkbox-selector-cl {
     
-    display: none;
+    /*display: none;*/
     
     .group-cl {
         @extend .dis;
@@ -400,8 +429,12 @@ $dragColor: #908d8d;
     }
 }
 
-.drop-down-opt-cl {
+.drop-down-opt-li-cl {
     display: none;
+}
+
+.drop-down-opt-cl {
+    /*display: none;*/
     @extend .commonTopMargin;
     width: 420px;
 }
@@ -463,9 +496,13 @@ $dragColor: #908d8d;
     }
 }
 
+.full-name-li-cl {
+    display: none;
+}
+
 .full-name-cl {
     
-    display: none;
+    
     
     .full-cont-cl {
         @extend .dis;
@@ -508,9 +545,12 @@ $dragColor: #908d8d;
     @extend .commonTopMargin;
 }
 
+.long-text-li-cl {
+    display: none;
+}
 
 .long-text-cl {
-    display: none;
+    
     .long-text-id-cl{
          @extend .dis;
          width: 650px;
@@ -579,9 +619,13 @@ $dragColor: #908d8d;
     
 }
 
+.postal-address-li-cl {
+    display: none;
+}
+
 .postal-address-cl {
     
-    display: none;
+    
     
     .postal-address-id-cl {
         @extend .dis;
@@ -630,9 +674,13 @@ $dragColor: #908d8d;
     
 }
 
+.Phone-num-li-cl {
+    display: none;
+}
+
 .Phone-num-cl {
     
-    display: none;
+    
     
     .Phone-id-cl {
         .Phone-id-lab {
