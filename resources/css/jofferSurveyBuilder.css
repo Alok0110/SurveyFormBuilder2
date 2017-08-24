@@ -260,7 +260,8 @@ li {
   display: none; }
 
 .text-area-cl {
-  /*display: none;*/ }
+  /*display: none;*/
+  width: 880px; }
 
 .text-area-cl .text-grp-cl textarea {
   float: left; }
