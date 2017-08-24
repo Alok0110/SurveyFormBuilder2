@@ -1,4 +1,4 @@
-.dis, .head-cl .heading-cl, .head-cl .sub-heading-cl, .head-cl .heading-drag-cl, .head-cl .heading-delete-cl, .fixed-slab img, .mid-lab .fsamp-cl, .survey-Q-cl .question-cl, .survey-Q-cl .heading-drag-cl, .survey-Q-cl .heading-delete-cl, .image-uploader-Q-cl .heading-drag-cl, .image-uploader-Q-cl .heading-delete-cl, .radio-selector-cl .group-cl, .radio-selector-cl .heading-drag-cl, .radio-selector-cl .heading-delete-cl, .file-uploader-cl .heading-drag-cl, .file-uploader-cl .heading-delete-cl, .file-uploader-cl .file-upload-holder-cl, .text-area-cl .heading-drag-cl, .text-area-cl .heading-delete-cl, .checkbox-selector-cl .group-cl, .checkbox-selector-cl .heading-drag-cl, .checkbox-selector-cl .heading-delete-cl, .drop-down-opt-cl .DD-opt-txt, .drop-down-opt-cl .heading-drag-cl, .drop-down-opt-cl .heading-delete-cl, .full-name-cl .full-cont-cl, .full-name-cl .heading-drag-cl, .full-name-cl .heading-delete-cl, .long-text-cl .long-text-id-cl, .long-text-cl .heading-drag-cl, .long-text-cl .heading-delete-cl, .email-address-cl .email-id-cl, .email-address-cl .date-id-cl, .email-address-cl .time-id-cl, .email-address-cl .button-id-cl, .email-address-cl .short-text-id-cl, .email-address-cl .number-text-id-cl, .date-cl .email-id-cl, .date-cl .date-id-cl, .date-cl .time-id-cl, .date-cl .button-id-cl, .date-cl .short-text-id-cl, .date-cl .number-text-id-cl, .time-cl .email-id-cl, .time-cl .date-id-cl, .time-cl .time-id-cl, .time-cl .button-id-cl, .time-cl .short-text-id-cl, .time-cl .number-text-id-cl, .button-cl .email-id-cl, .button-cl .date-id-cl, .button-cl .time-id-cl, .button-cl .button-id-cl, .button-cl .short-text-id-cl, .button-cl .number-text-id-cl, .short-text-cl .email-id-cl, .short-text-cl .date-id-cl, .short-text-cl .time-id-cl, .short-text-cl .button-id-cl, .short-text-cl .short-text-id-cl, .short-text-cl .number-text-id-cl, .number-text-cl .email-id-cl, .number-text-cl .date-id-cl, .number-text-cl .time-id-cl, .number-text-cl .button-id-cl, .number-text-cl .short-text-id-cl, .number-text-cl .number-text-id-cl, .email-address-cl .heading-drag-cl, .date-cl .heading-drag-cl, .time-cl .heading-drag-cl, .button-cl .heading-drag-cl, .short-text-cl .heading-drag-cl, .number-text-cl .heading-drag-cl, .email-address-cl .heading-delete-cl, .date-cl .heading-delete-cl, .time-cl .heading-delete-cl, .button-cl .heading-delete-cl, .short-text-cl .heading-delete-cl, .number-text-cl .heading-delete-cl, .postal-address-cl .postal-address-id-cl, .postal-address-cl .postal-address-content .street-add, .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add, .postal-address-cl .heading-drag-cl, .postal-address-cl .heading-delete-cl, .postal-address-cl, .Phone-num-cl .heading-drag-cl, .Phone-num-cl .heading-delete-cl, .header-start-cl .hero-btn-cl, .survey-top-mid-cl img, .survey-mid-cl img, .survey-testi-cl img, .survey-contact-cl img, .survey-top-mid-cl .lab-cl, .survey-mid-cl .lab-cl, .survey-testi-cl .lab-cl, .survey-contact-cl .lab-cl, .survey-top-mid-cl .para-cl, .survey-mid-cl .para-cl, .survey-testi-cl .para-cl, .survey-contact-cl .para-cl, .survey-top-mid-cl .para-cl .person-name-cl, .survey-mid-cl .para-cl .person-name-cl, .survey-testi-cl .para-cl .person-name-cl, .survey-contact-cl .para-cl .person-name-cl, .survey-top-mid-cl .para-cl .contact-btn-cl, .survey-mid-cl .para-cl .contact-btn-cl, .survey-testi-cl .para-cl .contact-btn-cl, .survey-contact-cl .para-cl .contact-btn-cl, .survey-footer-cl .survey-frm img, .container-for-form-ele-cl .drag-here-cl h1 {
+.dis, .head-cl .heading-cl, .head-cl .sub-heading-cl, .head-cl .heading-drag-cl, .head-cl .heading-delete-cl, .fixed-slab img, .mid-lab .fsamp-cl, .survey-Q-cl .question-cl, .survey-Q-cl .heading-drag-cl, .survey-Q-cl .heading-delete-cl, .image-uploader-Q-cl .heading-drag-cl, .image-uploader-Q-cl .heading-delete-cl, .radio-selector-cl .group-cl, .radio-selector-cl .heading-drag-cl, .radio-selector-cl .heading-delete-cl, .file-uploader-cl .heading-drag-cl, .file-uploader-cl .heading-delete-cl, .file-uploader-cl .file-upload-holder-cl, .text-area-cl .heading-drag-cl, .text-area-cl .heading-delete-cl, .checkbox-selector-cl .group-cl, .checkbox-selector-cl .heading-drag-cl, .checkbox-selector-cl .heading-delete-cl, .drop-down-opt-cl .DD-opt-txt, .drop-down-opt-cl .heading-drag-cl, .drop-down-opt-cl .heading-delete-cl, .full-name-cl .full-cont-cl, .full-name-cl .heading-drag-cl, .full-name-cl .heading-delete-cl, .long-text-cl .long-text-id-cl, .long-text-cl .heading-drag-cl, .long-text-cl .heading-delete-cl, .email-address-cl .email-id-cl, .email-address-cl .date-id-cl, .email-address-cl .time-id-cl, .email-address-cl .button-id-cl, .email-address-cl .short-text-id-cl, .email-address-cl .number-text-id-cl, .date-cl .email-id-cl, .date-cl .date-id-cl, .date-cl .time-id-cl, .date-cl .button-id-cl, .date-cl .short-text-id-cl, .date-cl .number-text-id-cl, .time-cl .email-id-cl, .time-cl .date-id-cl, .time-cl .time-id-cl, .time-cl .button-id-cl, .time-cl .short-text-id-cl, .time-cl .number-text-id-cl, .button-cl .email-id-cl, .button-cl .date-id-cl, .button-cl .time-id-cl, .button-cl .button-id-cl, .button-cl .short-text-id-cl, .button-cl .number-text-id-cl, .short-text-cl .email-id-cl, .short-text-cl .date-id-cl, .short-text-cl .time-id-cl, .short-text-cl .button-id-cl, .short-text-cl .short-text-id-cl, .short-text-cl .number-text-id-cl, .number-text-cl .email-id-cl, .number-text-cl .date-id-cl, .number-text-cl .time-id-cl, .number-text-cl .button-id-cl, .number-text-cl .short-text-id-cl, .number-text-cl .number-text-id-cl, .email-address-cl .heading-drag-cl, .date-cl .heading-drag-cl, .time-cl .heading-drag-cl, .button-cl .heading-drag-cl, .short-text-cl .heading-drag-cl, .number-text-cl .heading-drag-cl, .email-address-cl .heading-delete-cl, .date-cl .heading-delete-cl, .time-cl .heading-delete-cl, .button-cl .heading-delete-cl, .short-text-cl .heading-delete-cl, .number-text-cl .heading-delete-cl, .postal-address-cl .postal-address-id-cl, .postal-address-cl .postal-address-id-cl .postal-address-content .street-add, .postal-address-cl .postal-address-id-cl .postal-address-content .city-add, .postal-address-cl .postal-address-id-cl .postal-address-content .state-add, .postal-address-cl .heading-drag-cl, .postal-address-cl .heading-delete-cl, .postal-address-cl, .Phone-num-cl .heading-drag-cl, .Phone-num-cl .heading-delete-cl, .header-start-cl .hero-btn-cl, .survey-top-mid-cl img, .survey-mid-cl img, .survey-testi-cl img, .survey-contact-cl img, .survey-top-mid-cl .lab-cl, .survey-mid-cl .lab-cl, .survey-testi-cl .lab-cl, .survey-contact-cl .lab-cl, .survey-top-mid-cl .para-cl, .survey-mid-cl .para-cl, .survey-testi-cl .para-cl, .survey-contact-cl .para-cl, .survey-top-mid-cl .para-cl .person-name-cl, .survey-mid-cl .para-cl .person-name-cl, .survey-testi-cl .para-cl .person-name-cl, .survey-contact-cl .para-cl .person-name-cl, .survey-top-mid-cl .para-cl .contact-btn-cl, .survey-mid-cl .para-cl .contact-btn-cl, .survey-testi-cl .para-cl .contact-btn-cl, .survey-contact-cl .para-cl .contact-btn-cl, .survey-footer-cl .survey-frm img, .container-for-form-ele-cl .drag-here-cl h1 {
   display: inline-block; }
 
 .disB, .mid-lab, .file-inp-cl input, .text-area-cl .text-grp-cl textarea {
@@ -28,7 +28,8 @@
   /*height: 700px;*/ }
 
 .show-ele {
-  display: block !important; }
+  /*display: block !important;*/
+  display: inline-block; }
 
 .hide-ele {
   display: none; }
@@ -36,36 +37,34 @@
 .head-li-cl {
   display: none; }
 
-.head-cl .heading-cl {
-  width: 80%;
-  height: 80px;
-  font-size: 30px;
-  text-align: center;
-  float: left; }
-
-.head-cl .sub-heading-cl {
-  width: 80%;
-  height: 40px;
-  margin-top: 4px;
-  text-align: center;
-  float: left; }
-
-.head-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer; }
-
-.head-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer; }
-
-.head-cl .btn-del {
-  width: 4%;
-  float: left; }
+.head-cl {
+  width: 880px; }
+  .head-cl .heading-cl {
+    width: 80%;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    float: left; }
+  .head-cl .sub-heading-cl {
+    width: 80%;
+    height: 40px;
+    margin-top: 4px;
+    text-align: center;
+    float: left; }
+  .head-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer; }
+  .head-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer; }
+  .head-cl .btn-del {
+    width: 4%;
+    float: left; }
 
 .ele-btn-cl {
   font-size: 18px;
@@ -133,7 +132,8 @@ li {
   display: none; }
 
 .survey-Q-cl {
-  /*display: none;*/ }
+  /*display: none;*/
+  width: 880px; }
   .survey-Q-cl .question-cl {
     width: 80%;
     height: 40px;
@@ -155,9 +155,12 @@ li {
     width: 4%;
     float: left; }
 
-.image-samp-cl img {
-  border: 1px solid #545f6f;
+.image-samp-cl {
+  display: inline-block;
   float: left; }
+  .image-samp-cl img {
+    border: 1px solid #545f6f;
+    float: left; }
 
 .image-uploader-Q-li-cl {
   display: none; }
@@ -193,6 +196,7 @@ li {
   display: none; }
 
 .radio-selector-cl {
+  width: 880px;
   /*display: none;*/ }
   .radio-selector-cl .group-cl {
     margin-top: 4px;
@@ -225,6 +229,7 @@ li {
   display: none; }
 
 .file-uploader-cl {
+  width: 880px;
   /*display: none;*/ }
   .file-uploader-cl .heading-drag-cl {
     height: 30px;
@@ -281,6 +286,7 @@ li {
   display: none; }
 
 .checkbox-selector-cl {
+  width: 880px;
   /*display: none;*/ }
   .checkbox-selector-cl .group-cl {
     margin-top: 4px;
@@ -369,39 +375,38 @@ li {
 .full-name-li-cl {
   display: none; }
 
-.full-name-cl .full-cont-cl {
-  width: 510px;
-  float: left; }
-  .full-name-cl .full-cont-cl .flab-cl {
+.full-name-cl {
+  width: 880px; }
+  .full-name-cl .full-cont-cl {
+    width: 510px;
+    float: left; }
+    .full-name-cl .full-cont-cl .flab-cl {
+      float: left;
+      margin-right: 4px; }
+    .full-name-cl .full-cont-cl .flab-input-cl {
+      float: left;
+      margin-right: 2px;
+      margin-left: 2px; }
+  .full-name-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .full-name-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .full-name-cl .btn-del {
+    width: 4%;
     float: left;
-    margin-right: 4px; }
-  .full-name-cl .full-cont-cl .flab-input-cl {
-    float: left;
-    margin-right: 2px;
-    margin-left: 2px; }
-
-.full-name-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.full-name-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.full-name-cl .btn-del {
-  width: 4%;
-  float: left;
-  margin-top: 0px !important;
-  width: 2% !important; }
+    margin-top: 0px !important;
+    width: 2% !important; }
 
 .long-text-li-cl {
   display: none; }
@@ -440,7 +445,8 @@ li {
   display: none; }
 
 .email-address-cl, .date-cl, .time-cl, .button-cl, .short-text-cl, .number-text-cl {
-  /*display: none;*/ }
+  /*display: none;*/
+  width: 880px; }
   .email-address-cl .email-id-cl, .email-address-cl .date-id-cl, .email-address-cl .time-id-cl, .email-address-cl .button-id-cl, .email-address-cl .short-text-id-cl, .email-address-cl .number-text-id-cl, .date-cl .email-id-cl, .date-cl .date-id-cl, .date-cl .time-id-cl, .date-cl .button-id-cl, .date-cl .short-text-id-cl, .date-cl .number-text-id-cl, .time-cl .email-id-cl, .time-cl .date-id-cl, .time-cl .time-id-cl, .time-cl .button-id-cl, .time-cl .short-text-id-cl, .time-cl .number-text-id-cl, .button-cl .email-id-cl, .button-cl .date-id-cl, .button-cl .time-id-cl, .button-cl .button-id-cl, .button-cl .short-text-id-cl, .button-cl .number-text-id-cl, .short-text-cl .email-id-cl, .short-text-cl .date-id-cl, .short-text-cl .time-id-cl, .short-text-cl .button-id-cl, .short-text-cl .short-text-id-cl, .short-text-cl .number-text-id-cl, .number-text-cl .email-id-cl, .number-text-cl .date-id-cl, .number-text-cl .time-id-cl, .number-text-cl .button-id-cl, .number-text-cl .short-text-id-cl, .number-text-cl .number-text-id-cl {
     width: 250px;
     float: left; }
@@ -474,89 +480,84 @@ li {
 .postal-address-li-cl {
   display: none; }
 
-.postal-address-cl .postal-address-id-cl {
-  width: 384px;
-  float: left; }
-
-.postal-address-cl .postal-address-content {
-  float: left; }
-  .postal-address-cl .postal-address-content .street-add, .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add {
+.postal-address-cl {
+  /*width: 880px;*/ }
+  .postal-address-cl .postal-address-id-cl {
     width: 384px;
+    float: left; }
+    .postal-address-cl .postal-address-id-cl .postal-address-content {
+      width: 385px;
+      float: left; }
+      .postal-address-cl .postal-address-id-cl .postal-address-content .street-add, .postal-address-cl .postal-address-id-cl .postal-address-content .city-add, .postal-address-cl .postal-address-id-cl .postal-address-content .state-add {
+        width: 384px;
+        float: left;
+        margin-top: 4px; }
+      .postal-address-cl .postal-address-id-cl .postal-address-content .city-add, .postal-address-cl .postal-address-id-cl .postal-address-content .state-add {
+        width: 190px !important; }
+      .postal-address-cl .postal-address-id-cl .postal-address-content .state-add {
+        margin-left: 3px; }
+  .postal-address-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .postal-address-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .postal-address-cl .btn-del {
+    width: 4%;
     float: left;
-    margin-top: 4px; }
-  .postal-address-cl .postal-address-content .city-add, .postal-address-cl .postal-address-content .state-add {
-    width: 190px !important; }
-  .postal-address-cl .postal-address-content .state-add {
-    margin-left: 3px; }
-
-.postal-address-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.postal-address-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.postal-address-cl .btn-del {
-  width: 4%;
-  float: left;
-  margin-top: 0px !important;
-  width: 2% !important; }
+    margin-top: 0px !important;
+    width: 2% !important; }
 
 .postal-address-cl {
-  width: 404px; }
+  width: 880px; }
 
 .Phone-num-li-cl {
   display: none; }
 
-.Phone-num-cl .Phone-id-cl .Phone-id-lab {
-  float: left; }
-
-.Phone-num-cl .Phone-id-cl .code-inp {
-  float: left;
-  margin-left: 4px;
-  width: 50px; }
-
-.Phone-num-cl .Phone-id-cl .num-inp {
-  float: left;
-  width: 224px; }
-
-.Phone-num-cl .Phone-id-cl span {
-  float: left;
-  margin-left: 2px;
-  margin-right: 2px; }
-
-.Phone-num-cl .heading-drag-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.Phone-num-cl .heading-delete-cl {
-  height: 30px;
-  margin-left: 2px;
-  font-size: 30px;
-  color: #e74c3c;
-  cursor: pointer;
-  height: 10px !important;
-  font-size: 14px !important; }
-
-.Phone-num-cl .btn-del {
-  width: 4%;
-  float: left;
-  margin-top: 0px !important;
-  width: 2% !important; }
+.Phone-num-cl {
+  width: 880px; }
+  .Phone-num-cl .Phone-id-cl .Phone-id-lab {
+    float: left; }
+  .Phone-num-cl .Phone-id-cl .code-inp {
+    float: left;
+    margin-left: 4px;
+    width: 50px; }
+  .Phone-num-cl .Phone-id-cl .num-inp {
+    float: left;
+    width: 224px; }
+  .Phone-num-cl .Phone-id-cl span {
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px; }
+  .Phone-num-cl .heading-drag-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .Phone-num-cl .heading-delete-cl {
+    height: 30px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    height: 10px !important;
+    font-size: 14px !important; }
+  .Phone-num-cl .btn-del {
+    width: 4%;
+    float: left;
+    margin-top: 0px !important;
+    width: 2% !important; }
 
 .header-start-cl {
   background-image: url(img/mmc-web.jpg);

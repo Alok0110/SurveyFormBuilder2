@@ -68,7 +68,8 @@ $dragColor: #908d8d;
 }
 
 .show-ele {
-    display: block !important;
+    /*display: block !important;*/
+    display: inline-block;
 }
 
 .hide-ele {
@@ -79,9 +80,10 @@ $dragColor: #908d8d;
     display: none;
 }
 
+
 .head-cl {
     
-    
+    width: 880px;
     
     .heading-cl {
         @extend .dis;
@@ -215,7 +217,7 @@ li {
 .survey-Q-cl {
     
     /*display: none;*/
-    
+    width: 880px;
     .question-cl {
         @extend .dis;
         @extend .commonTopMargin;
@@ -241,6 +243,8 @@ li {
 }
 
 .image-samp-cl {
+    display: inline-block;
+    float: left;
     img {
         @extend .commonTopMargin;
         border: 1px solid $baseButton;
@@ -293,7 +297,7 @@ li {
 }
 
 .radio-selector-cl {
-    
+     width: 880px;
     /*display: none;*/
     
     .group-cl {
@@ -329,7 +333,7 @@ li {
 }
 
 .file-uploader-cl {
-    
+    width: 880px;
     /*display: none;*/
     
     .heading-drag-cl {
@@ -399,6 +403,7 @@ li {
 
 .checkbox-selector-cl {
     
+    width: 880px;
     /*display: none;*/
     
     .group-cl {
@@ -502,7 +507,7 @@ li {
 
 .full-name-cl {
     
-    
+    width: 880px;
     
     .full-cont-cl {
         @extend .dis;
@@ -583,6 +588,7 @@ li {
 }
 .email-address-cl, .date-cl, .time-cl, .button-cl, .short-text-cl, .number-text-cl {
     /*display: none;*/
+    width: 880px;
     .email-id-cl, .date-id-cl, .time-id-cl, .button-id-cl, .short-text-id-cl, .number-text-id-cl{
         @extend .dis;
         width: 250px;
@@ -625,14 +631,16 @@ li {
 
 .postal-address-cl {
     
-    
+    /*width: 880px;*/
     
     .postal-address-id-cl {
         @extend .dis;
         width: 384px;
         float: left;
-    }
-    .postal-address-content {
+        
+        
+        .postal-address-content {
+        width: 385px;
         float: left;
         .street-add, .city-add, .state-add {
             @extend .dis;
@@ -647,6 +655,9 @@ li {
             margin-left: 3px;
         }
     }
+        
+    }
+    
     
     .heading-drag-cl {
         @include heading-drag-cl;
@@ -670,7 +681,7 @@ li {
 .postal-address-cl {
     @extend .commonTopMargin;
     @extend .dis;
-    width: 404px;
+    width: 880px;
     
 }
 
@@ -680,7 +691,7 @@ li {
 
 .Phone-num-cl {
     
-    
+    width: 880px;
     
     .Phone-id-cl {
         .Phone-id-lab {
