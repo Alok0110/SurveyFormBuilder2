@@ -81,13 +81,19 @@ $dragColor: #908d8d;
 }
 
 
+.exp-head-cl {
+    @extend .dis;
+    width: 800px;
+    float: left;
+}
+
 .head-cl {
     
     width: 880px;
     
     .heading-cl {
         @extend .dis;
-        width: 80%;
+        width: 100%;
         height: 80px;
         font-size: 30px;
         text-align: center;
@@ -97,7 +103,7 @@ $dragColor: #908d8d;
     
     .sub-heading-cl {
         @extend .dis;
-        width: 80%;
+        width: 100%;
         height: 40px;
         margin-top: 4px;
         text-align: center;
@@ -214,14 +220,22 @@ li {
     display: none;
 }
 
+
+
 .survey-Q-cl {
+    
+    .exp-question-cl {
+        width: 800px;
+        display: inline-block;
+        float: left;
+    }
     
     /*display: none;*/
     width: 880px;
     .question-cl {
         @extend .dis;
         @extend .commonTopMargin;
-        width: 80%;
+        width: 100%;
         height: 40px;
         
         font-size: 19px;
@@ -240,6 +254,11 @@ li {
     .btn-del {
         @include btn-del;
     }
+}
+
+.exp-image-samp-cl {
+    display: inline-block;
+    float: left;
 }
 
 .image-samp-cl {
@@ -376,6 +395,20 @@ li {
     width: 880px;
 }
 
+.form-save-cl {
+    display: inline-block;
+    width: 100%;
+    background-color: $baseButton;
+    color: #dedede;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    &:hover {
+        background-color: $basePanelColor;
+    }
+}
+
 .text-area-cl {
     .text-grp-cl{
             textarea {
@@ -439,10 +472,16 @@ li {
     display: none;
 }
 
+.exp-DD-opt-cl {
+    @extend .disB;
+    float: left;
+}
+
 .drop-down-opt-cl {
     /*display: none;*/
+    display: inline-block;
     @extend .commonTopMargin;
-    width: 420px;
+    width: 800px;
 }
 
 .drop-down-opt-cl {
@@ -584,13 +623,18 @@ li {
     }
 }
 
-.number-li-cl, .email-address-li-cl, .date-li-cl, .time-li-cl, .button-li-cl, .short-text-li-cl {
+.number-li-cl, .email-address-li-cl, .date-li-cl, .time-li-cl, .button-li-cl, .short-text-li-cl, .spinner-li-cl, .scale-li-cl, .star-li-cl {
     display: none;
 }
-.email-address-cl, .date-cl, .time-cl, .button-cl, .short-text-cl, .number-text-cl {
+.email-address-cl, .date-cl, .time-cl, .button-cl, .short-text-cl, .number-text-cl, .spinner-text-cl, .scale-text-cl, .star-text-cl {
     /*display: none;*/
     width: 880px;
-    .email-id-cl, .date-id-cl, .time-id-cl, .button-id-cl, .short-text-id-cl, .number-text-id-cl{
+    
+    .star-text-id-cl {
+        display: inline-block;
+    }
+    
+    .email-id-cl, .date-id-cl, .time-id-cl, .button-id-cl, .short-text-id-cl, .number-text-id-cl, .spinner-text-id-cl, .scale-text-id-cl, .star-text-id-cl {
         @extend .dis;
         width: 250px;
         float: left;

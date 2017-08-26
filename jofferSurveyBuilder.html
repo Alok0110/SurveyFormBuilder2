@@ -26,6 +26,10 @@
         <meta name="twitter:image" content="http://www.joffer.nz/nz/alokdethe/resources/img/cover-cop.png">
         <!-- All css -->
         <link type="text/css" rel="stylesheet" href="vendors/css/normalize.css" >
+        <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+        <link rel="stylesheet" href="resources/css/style.min.css">
+        <link rel="stylesheet" href="resources/css/rating.min.css">
+        
         <!-- Bootstrap 3.3.7 -->
         <!--<link type="text/css" rel="stylesheet" href="vendors/css/bootstrap.min.css" >
         <link type="text/css" rel="stylesheet" href="vendors/css/bootstrap-theme.min.css" >-->
@@ -159,26 +163,32 @@
             
                 <li class="head-li-cl">
                 <div class="head-cl">
-                    <input class="heading-cl" type="text" placeholder="Heading"  />
+                    
+                    <div class="exp-head-cl">
+                        <input class="heading-cl" type="text" placeholder="Heading"  />
+                        <input class="sub-heading-cl" type="text" placeholder="Sub Heading"  />
+                    </div>
                     <div class="btn-del">
                         <span class="heading-drag-cl"><i class="ion-navicon-round"></i></span>
                         <span class="heading-delete-cl"><i class="ion-trash-b"></i></span>
                     </div>
-                    <input class="sub-heading-cl" type="text" placeholder="Sub Heading"  />
-                    <div class="clearF"></div>
+                    
+                    <!--<div class="clearF"></div>-->
                     
                 </div>
                 </li>
                 
                 <li class="survey-Q-li-cl">
-                <div class="survey-Q-cl">
+                <div id="survey-Q-cl" class="survey-Q-cl">
                     
-                    <input class="question-cl" type="text" placeholder="Type Question"  />
+                    <div class="exp-question-cl">
+                      <input class="question-cl" type="text" placeholder="Type Question" />
+                    </div>
                     <div class="btn-del">
                         <span class="heading-drag-cl"><i class="ion-navicon-round"></i></span>
                         <span class="heading-delete-cl"><i class="ion-trash-b"></i></span>
                     </div>
-                    <div class="clearF"></div>
+                    <!--<div class="clearF"></div>-->
                     
                 </div>
                 </li>
@@ -186,16 +196,18 @@
                 <li class="image-uploader-Q-li-cl">
                 <div class="image-uploader-Q-cl">
                     
-                    <div class="image-samp-cl">
-                        <img class="" style="width: 754px; height: 354px;" src="resources/img/sampleImage.png" />
-                        
+                    <div class="exp-image-samp-cl">
+                        <div class="image-samp-cl">
+                            <img class="" style="width: 754px; height: 354px;" src="resources/img/sampleImage.png" />
+                        </div>
+                        <div class="file-inp-cl">
+                            <input id="" class="" type="file" />
+                        </div>
                     </div>
+                    
                     <div class="btn-del">
                         <span class="heading-drag-cl"><i class="ion-navicon-round"></i></span>
                         <span class="heading-delete-cl"><i class="ion-trash-b"></i></span>
-                    </div>
-                    <div class="file-inp-cl">
-                        <input id="" class="" type="file" />
                     </div>
                     <div class="clearF"></div>
                     
@@ -220,31 +232,30 @@
                 <li class="drop-down-opt-li-cl">
                 <div class="drop-down-opt-cl">
                     
+                <div class="exp-DD-opt-cl">    
                     <div class="DD-opt-cl">
                         <select id="" class="" >
                             <option value="0">Select</option>
                         </select>
                     </div>
-                    
-                    <div class="btn-del">
-                        <span class="heading-drag-cl"><i class="ion-navicon-round"></i></span>
-                        <span class="heading-delete-cl"><i class="ion-trash-b"></i></span>
-                    </div>
-                    
                     <div class="DD-opt-txt">
                         <textarea draggable="false" rows="5" cols="55" >option 1,
 option 2,
 option 3</textarea>
                     </div>
-                    
                     <div class="DD-opt-sub-btn-cl">
                         <input id="" class="" type="button" value="Save Dropdown Option" />
                     </div>
+                </div>
+                    <div class="btn-del">
+                        <span class="heading-drag-cl"><i class="ion-navicon-round"></i></span>
+                        <span class="heading-delete-cl"><i class="ion-trash-b"></i></span>
+                    </div>
                     
                     
-                    <div class="clearF"></div>
                     
                 </div>
+                    <div class="clearF"></div>
                 </li>
                 
                 <li class="checkbox-selector-li-cl">
@@ -354,6 +365,8 @@ option 3</textarea>
                 </div>
                 </li>
                 
+                
+                
                 <li class="date-li-cl">
                 <div class="date-cl">
                     <div class="date-id-cl">
@@ -432,6 +445,32 @@ option 3</textarea>
                 </div>
                 </li>
                 
+                <li class="star-li-cl">
+                <div class="star-text-cl">
+                    <div class="star-text-id-cl">
+                        <ul class="el"></ul>
+                    </div>
+                    <div class="btn-del">
+                        <span class="heading-drag-cl"><i class="ion-navicon-round"></i></span>
+                        <span class="heading-delete-cl"><i class="ion-trash-b"></i></span>
+                    </div>
+                    <div class="clearF"></div>
+                </div>
+                </li>
+                
+                <li class="spinner-li-cl">
+                <div class="spinner-text-cl">
+                    <div class="spinner-text-id-cl">
+                        <input  id="" class="" type="number"  />
+                    </div>
+                    <div class="btn-del">
+                        <span class="heading-drag-cl"><i class="ion-navicon-round"></i></span>
+                        <span class="heading-delete-cl"><i class="ion-trash-b"></i></span>
+                    </div>
+                    <div class="clearF"></div>
+                </div>
+                </li>
+                
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div id="droppable" class="container-for-form-ele-cl">
@@ -440,6 +479,12 @@ option 3</textarea>
                                 
                             </ul>
                         </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <p id="form-save-id" class="form-save-cl" >SAVE FORM</p>
                     </div>
                 </div>
                 
@@ -454,6 +499,7 @@ option 3</textarea>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js" ></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script type="type/javascript" src="script/bootstrap.min.js"></script>
+        <script type="text/javascript" src="resources/js/rating.js"></script>
         <script type="text/javascript" src="resources/js/jofferSurveyBuilder.js" ></script>
         <script type="text/javascript" src="resources/js/myscript.js"></script>
     </body>

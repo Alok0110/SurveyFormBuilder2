@@ -14,18 +14,33 @@
 ;(function(global, $){
     "use strict";
     
-    /*
-     * Check if jquery is loaded first  
+    /**
+     * JQuery
+     *
+     * @description Check if jQuery is loaded first
+     * @param {Object} jQuery Object
      */
     if( !$ ){
         throw new  Error("jQuery not loaded");
     }
     
-    /*
-     *Default Settings
+    /**
+     * Default
+     *
+     * @description set defaults to be used
      */
     var defaults = {
-        recentElement: ''
+        recentElement: '',
+        recentElementAdded: ''
+    };
+    
+    /**
+     * Errors
+     *
+     * @description set errors to be used
+     */
+    var errorId = {
+        "001": 'Heading Should Be On Top'
     };
     
     /*
@@ -34,6 +49,11 @@
     $.JofferSurveyFormBuilderInit = function() {
         
         var self = this;
+        
+        
+        // target element
+        
+        
         
         $( "#header-id, #survey-question-id, #image-uploader-id, #radio-option-id, #dropdown-id, #check-box-id, #file-uploader-id, #textarea-id, #full-name-id, #email-id, #address-id, #number-id, #phone-id, #date-picker-id, #time-id, #submit-id, #short-text-entry-id, #long-text-entry-id, #captcha-id, #spinner-id, #star-rating-id, #scale-rating-id" ).draggable({  
            /* connectToSortable: "#ele-container-id", */
@@ -50,8 +70,10 @@
             },                      
             revert: "invalid"
        });
-
+        
+        
         self.attachToBody = function( ele ) {
+            
                         defaults.recentElement = '';
                         if ( !$("#drag-here-id").hasClass("hide-ele") ) {
                                 $("#drag-here-id").addClass("hide-ele");
@@ -60,8 +82,41 @@
                         cl.appendTo( ".ele-container-cl" );
                         cl.addClass("show-ele");
                         cl.removeClass( ele.substring(1) );
-                        console.log("ok got in"+ele);
+                        
+                        /* For demo only  */
+                        if( ele === ".star-li-cl" ) {
+                            var changeCl = cl.children().children().children();
+                            console.log(changeCl);
+                            console.log("check cl");
+                            changeCl.removeClass("el");
+                            changeCl.addClass("c-rating");
+                        }
+                        /* End demo */
+                        
         }
+        
+        self.runStar = function( classForStar ) {
+                        var el = document.querySelector( classForStar );
+                        var currentRating = 0;
+                        var maxRating= 5;
+                        var callback = function(rating) { alert(rating); };
+                        var myRating = global.rating(el, currentRating, maxRating, callback, classForStar.substring(1));
+        }
+        
+        $("#form-save-id").click( function( e ){
+            var arrEle = $("#ele-container-id");
+            
+            arrEle.children("li").each( function(ind,ele){
+                
+                console.log(ele.getAttribute("id")+" "+ele.classList+" "+ele.firstElementChild.classList.contains("survey-Q-cl")+" id "+ele.firstElementChild.getAttribute("id"));
+                
+                if( ele.firstElementChild.getAttribute("id") === "survey-Q-cl" ) {
+                    defaults.recentElementAdded = "";
+                }
+                
+            } );
+            
+        } );
         
         $( "#droppable" ).droppable({
               accept: "#header-id, #survey-question-id, #image-uploader-id, #radio-option-id, #dropdown-id, #check-box-id, #file-uploader-id, #textarea-id, #full-name-id, #email-id, #address-id, #number-id, #phone-id, #date-picker-id, #time-id, #submit-id, #short-text-entry-id, #long-text-entry-id, #captcha-id, #spinner-id, #star-rating-id, #scale-rating-id",
@@ -149,12 +204,15 @@
                         break;
                     
                     case "star-rating-id" :
-                        self.attachToBody(".star-rating-li-cl");
+                        self.attachToBody(".star-li-cl");
+                        self.runStar(".c-rating"); //For Demo Only
                         break;
                     
                     case "scale-rating-id" :
                         self.attachToBody(".scale-rating-li-cl");
                         break;
+                    
+                    
                         
                     default :
                         break;
@@ -165,7 +223,8 @@
         });
         
         $( "#ele-container-id" ).sortable({
-          revert: true
+          revert: true,
+          handle: ".heading-drag-cl"    
         });
         
         
