@@ -31,7 +31,10 @@
      */
     var defaults = {
         recentElement: '',
-        recentElementAdded: ''
+        recentQue: 0,
+        isError: 0,
+        recentQueOpt: '',
+        seqCheck: 0
     };
     
     /**
@@ -40,7 +43,9 @@
      * @description set errors to be used
      */
     var errorId = {
-        "001": 'Heading Should Be On Top'
+        "001": 'Error 001 : Heading Should Be Added On Top Of All Components',
+        "002": 'Error 002 : No Question Set For Option',
+        "003": 'Error 003 : First Name And Last Name Are Necessary'
     };
     
     /*
@@ -109,14 +114,61 @@
             arrEle.children("li").each( function(ind,ele){
                 
                 console.log(ele.getAttribute("id")+" "+ele.classList+" "+ele.firstElementChild.classList.contains("survey-Q-cl")+" id "+ele.firstElementChild.getAttribute("id"));
+                /*
+                 *Check heading
+                 */
+                if( ind === 0 ) {
+                    if( !(ele.firstElementChild.getAttribute("id") === "head-cl") ) {
+                        $("#head-cl-err").html( errorId["001"] );
+                        $("#head-cl-err").removeClass("err-hide");
+                        $("#head-cl-err").addClass("err-show");
+                        defaults.isError = 1;
+                        throw new Error("Headng Not Added On Top");
+                    }
+                    else {
+                        $("#head-cl-err").removeClass("err-show");
+                        $("#head-cl-err").addClass("err-hide");
+                        defaults.isError = 0;
+                    }
+                }
                 
                 if( ele.firstElementChild.getAttribute("id") === "survey-Q-cl" ) {
-                    defaults.recentElementAdded = "";
+                    defaults.recentQue+=1;
+                    ele.firstElementChild.firstElementChild.firstElementChild.setAttribute("id","Q"+defaults.recentQue);
+                    defaults.seqCheck = ind;
+                    defaults.recentQueOpt = "";
                 }
+                
+                if( ele.firstElementChild.getAttribute("id") === "radio-selector-cl" ||
+                    ele.firstElementChild.getAttribute("id") === "drop-down-opt-cl" ||
+                    ele.firstElementChild.getAttribute("id") === "checkbox-selector-cl" ||
+                    ele.firstElementChild.getAttribute("id") === "text-area-cl" ||
+                    ele.firstElementChild.getAttribute("id") === "short-text-cl" ||
+                    ele.firstElementChild.getAttribute("id") === "long-text-cl" ||
+                    ele.firstElementChild.getAttribute("id") === "number-text-cl" ||
+                    ele.firstElementChild.getAttribute("id") === "spinner-text-cl" ||
+                    ele.firstElementChild.getAttribute("id") === "star-text-cl" ||
+                    ele.firstElementChild.getAttribute("id") === "radio-selector-cl" 
+                    ){
+                    
+                        defaults.recentQueOpt = ele.firstElementChild.getAttribute("id");
+                        var cnt = ind;
+                        while( cnt >= defaults.seqCheck ) {
+                            console.log( "check for ques "+arrEle.children("li").get(cnt).firstElementChild.getAttribute("id")+" "+(cnt) );
+                            if( (arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== defaults.recentQueOpt) && (arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== "survey-Q-cl") ) {
+                                throw new Error("A Question Can Have One Type Of Options Only");
+                            }
+                            cnt--;
+                        }
+                }
+                
+                
                 
             } );
             
         } );
+        
+        
         
         $( "#droppable" ).droppable({
               accept: "#header-id, #survey-question-id, #image-uploader-id, #radio-option-id, #dropdown-id, #check-box-id, #file-uploader-id, #textarea-id, #full-name-id, #email-id, #address-id, #number-id, #phone-id, #date-picker-id, #time-id, #submit-id, #short-text-entry-id, #long-text-entry-id, #captcha-id, #spinner-id, #star-rating-id, #scale-rating-id",

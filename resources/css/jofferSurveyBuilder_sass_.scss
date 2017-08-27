@@ -4,6 +4,7 @@ $basePanelColor: #3e4652;
 $baseButton: #545f6f;
 $secondaryColor: #e74c3c;
 $secondaryHoverColor: #C92918;
+$errorBackground: #fd796b;
 $bigFont: 'Special Elite', cursive;
 $smallFont: 'Play', sans-serif;
 $generalFont: 'Titillium Web', 'Arial', sans-serif;
@@ -621,6 +622,22 @@ li {
         margin-top: 0px !important;
         width: 2% !important;
     }
+}
+
+.err-hide {
+    display: none;
+}
+
+.err-show {
+    @extend .dis;
+    width: 800px;
+    font-size: 16px;
+    background-color: red;
+        //$errorBackground;
+    //border-radius: 250px;
+    border: 3px solid red;
+        //$secondaryHoverColor;
+    color: #dedede;
 }
 
 .number-li-cl, .email-address-li-cl, .date-li-cl, .time-li-cl, .button-li-cl, .short-text-li-cl, .spinner-li-cl, .scale-li-cl, .star-li-cl {
