@@ -83,7 +83,7 @@
                         if ( !$("#drag-here-id").hasClass("hide-ele") ) {
                                 $("#drag-here-id").addClass("hide-ele");
                         }
-                        var cl = $( ele ).clone();
+                        var cl = $( ele ).clone( true );
                         cl.appendTo( ".ele-container-cl" );
                         cl.addClass("show-ele");
                         cl.removeClass( ele.substring(1) );
@@ -154,7 +154,7 @@
                         defaults.recentQueOpt = ele.firstElementChild.getAttribute("id");
                         var cnt = ind;
                         while( cnt >= defaults.seqCheck ) {
-                            console.log( "check for ques "+arrEle.children("li").get(cnt).firstElementChild.getAttribute("id")+" "+(cnt) );
+                            
                             if( (arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== defaults.recentQueOpt) && (arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== "survey-Q-cl") ) {
                                 throw new Error("A Question Can Have One Type Of Options Only");
                             }
@@ -168,7 +168,19 @@
             
         } );
         
-        
+        $(".heading-delete-cl").click( function(e){
+            var optV = e.currentTarget.parentElement.parentElement.parentElement;
+            optV.remove();
+            var arrEle = $("#ele-container-id");
+            var checkEle = arrEle.children("li").length;
+            if( checkEle === 0 ) {
+                if ( $("#drag-here-id").hasClass("hide-ele") ) {
+                                $("#drag-here-id").removeClass("hide-ele");
+                                $("#drag-here-id").addClass("show-ele");
+                }
+            }
+            
+        } );
         
         $( "#droppable" ).droppable({
               accept: "#header-id, #survey-question-id, #image-uploader-id, #radio-option-id, #dropdown-id, #check-box-id, #file-uploader-id, #textarea-id, #full-name-id, #email-id, #address-id, #number-id, #phone-id, #date-picker-id, #time-id, #submit-id, #short-text-entry-id, #long-text-entry-id, #captcha-id, #spinner-id, #star-rating-id, #scale-rating-id",
