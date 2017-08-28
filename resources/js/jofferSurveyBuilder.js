@@ -38,7 +38,8 @@
         emailid: '',
         addr: '',
         phnum: '',
-        subbtn: ''
+        subbtn: '',
+        headingUni: ''
     };
     
     /**
@@ -55,7 +56,8 @@
         "006": 'Error 006 : Email ID Should Be Unique, Delete Above Option',
         "007": 'Error 007 : Address Should Be Unique, Delete Above Option',
         "008": 'Error 008 : Phone Number Should Be Unique, Delete Above Option',
-        "009": 'Error 009 : Submit Button Should Be Unique, Delete Above Button'
+        "009": 'Error 009 : Submit Button Should Be Unique, Delete Above Button',
+        "010": 'Error 010 : Heading Should Be Unique, Delete Above Heading'
     };
     
     /*
@@ -129,6 +131,7 @@
             defaults.addr="";
             defaults.phnum="";
             defaults.subbtn="";
+            defaults.headingUni="";
             /** End **/
             
             /** Freshly Start The Search **/
@@ -234,6 +237,20 @@
 
                     } else {
                             setShowDuplicateError( errorId["009"] );
+                    }
+                }
+                
+                /*
+                 *Heading should be unique
+                 */
+                if ( ele.firstElementChild.getAttribute("id") === "head-cl"  ) {
+                    if( defaults.headingUni === "" ) {
+
+                            defaults.headingUni = ele.firstElementChild.getAttribute("id");
+                            setHideDuplicateError();
+
+                    } else {
+                            setShowDuplicateError( errorId["010"] );
                     }
                 }
                 
