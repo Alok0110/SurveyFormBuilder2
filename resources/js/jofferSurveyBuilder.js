@@ -18,7 +18,6 @@
      * JQuery
      *
      * @description Check if jQuery is loaded first
-     * @param {Object} jQuery Object
      */
     if( !$ ){
         throw new  Error("jQuery not loaded");
@@ -34,7 +33,12 @@
         recentQue: 0,
         isError: 0,
         recentQueOpt: '',
-        seqCheck: 0
+        seqCheck: 0,
+        fnln: '',
+        emailid: '',
+        addr: '',
+        phnum: '',
+        subbtn: ''
     };
     
     /**
@@ -44,8 +48,14 @@
      */
     var errorId = {
         "001": 'Error 001 : Heading Should Be Added On Top Of All Components',
-        "002": 'Error 002 : No Question Set For Option',
-        "003": 'Error 003 : First Name And Last Name Are Necessary'
+        "002": 'Error 002 : No Question Set For Above Option, Move Or Delete Above Option',
+        "003": 'Error 003 : First Name And Last Name Are Necessary',
+        "004": 'Error 004 : Type Of Options Do Not Match, Move Or Delete Above Option',
+        "005": 'Error 005 : First Name And Last Name Should Be Unique, Delete Above Option',
+        "006": 'Error 006 : Email ID Should Be Unique, Delete Above Option',
+        "007": 'Error 007 : Address Should Be Unique, Delete Above Option',
+        "008": 'Error 008 : Phone Number Should Be Unique, Delete Above Option',
+        "009": 'Error 009 : Submit Button Should Be Unique, Delete Above Button'
     };
     
     /*
@@ -108,12 +118,27 @@
                         var myRating = global.rating(el, currentRating, maxRating, callback, classForStar.substring(1));
         }
         
+        
+        
         $("#form-save-id").click( function( e ){
             var arrEle = $("#ele-container-id");
+            
+            /** Check For Unique Value **/
+            defaults.fnln="";
+            defaults.emailid="";
+            defaults.addr="";
+            defaults.phnum="";
+            defaults.subbtn="";
+            /** End **/
+            
+            /** Freshly Start The Search **/
+            defaults.seqCheck=0;
+            /** End **/
             
             arrEle.children("li").each( function(ind,ele){
                 
                 console.log(ele.getAttribute("id")+" "+ele.classList+" "+ele.firstElementChild.classList.contains("survey-Q-cl")+" id "+ele.firstElementChild.getAttribute("id"));
+                
                 /*
                  *Check heading
                  */
@@ -123,7 +148,7 @@
                         $("#head-cl-err").removeClass("err-hide");
                         $("#head-cl-err").addClass("err-show");
                         defaults.isError = 1;
-                        throw new Error("Headng Not Added On Top");
+                        //throw new Error("Headng Not Added On Top");
                     }
                     else {
                         $("#head-cl-err").removeClass("err-show");
@@ -132,6 +157,9 @@
                     }
                 }
                 
+                /*
+                 *Add question 
+                 */
                 if( ele.firstElementChild.getAttribute("id") === "survey-Q-cl" ) {
                     defaults.recentQue+=1;
                     ele.firstElementChild.firstElementChild.firstElementChild.setAttribute("id","Q"+defaults.recentQue);
@@ -139,6 +167,100 @@
                     defaults.recentQueOpt = "";
                 }
                 
+                /*
+                 *First name and Last name should be unique
+                 */
+                if ( ele.firstElementChild.getAttribute("id") === "full-name-cl"  ) {
+                    if( defaults.fnln === "" ) {
+
+                            defaults.fnln = ele.firstElementChild.getAttribute("id");
+                            setHideDuplicateError();
+
+                    } else {
+                            setShowDuplicateError( errorId["005"] );
+                    }
+                }
+                
+                /*
+                 *Email Address should be unique
+                 */
+                if ( ele.firstElementChild.getAttribute("id") === "email-address-cl"  ) {
+                    if( defaults.emailid === "" ) {
+
+                            defaults.emailid = ele.firstElementChild.getAttribute("id");
+                            setHideDuplicateError();
+
+                    } else {
+                            setShowDuplicateError( errorId["006"] );
+                    }
+                }
+                
+                /*
+                 *Address should be unique
+                 */
+                if ( ele.firstElementChild.getAttribute("id") === "postal-address-cl"  ) {
+                    if( defaults.addr === "" ) {
+
+                            defaults.addr = ele.firstElementChild.getAttribute("id");
+                            setHideDuplicateError();
+
+                    } else {
+                            setShowDuplicateError( errorId["007"] );
+                    }
+                }
+                
+                /*
+                 *Phone number should be unique
+                 */
+                if ( ele.firstElementChild.getAttribute("id") === "Phone-num-cl"  ) {
+                    if( defaults.phnum === "" ) {
+
+                            defaults.phnum = ele.firstElementChild.getAttribute("id");
+                            setHideDuplicateError();
+
+                    } else {
+                            setShowDuplicateError( errorId["008"] );
+                    }
+                }
+                
+                /*
+                 *Submit button should be unique
+                 */
+                if ( ele.firstElementChild.getAttribute("id") === "button-cl"  ) {
+                    if( defaults.subbtn === "" ) {
+
+                            defaults.subbtn = ele.firstElementChild.getAttribute("id");
+                            setHideDuplicateError();
+
+                    } else {
+                            setShowDuplicateError( errorId["009"] );
+                    }
+                }
+                
+                /*
+                 *Common function for showing duplicate error
+                 */
+                function setHideDuplicateError() {
+                    var handleError = arrEle.children("li").get(ind).lastElementChild;
+                        if( $( handleError ).hasClass("err-show")  ) {
+                            $( handleError ).removeClass("err-show");
+                            $( handleError ).addClass("err-hide");
+                        }
+                }
+                
+                /*
+                 *Common function for hiding duplicate error
+                 */
+                function setShowDuplicateError( errMessage ) {
+                    var handleError = arrEle.children("li").get(ind).lastElementChild;
+                                $( handleError ).html( errMessage );
+                                $( handleError ).removeClass("err-hide");
+                                $( handleError ).addClass("err-show");
+                }
+                
+                /*
+                 *Attach option's to their question's
+                 */
                 if( ele.firstElementChild.getAttribute("id") === "radio-selector-cl" ||
                     ele.firstElementChild.getAttribute("id") === "drop-down-opt-cl" ||
                     ele.firstElementChild.getAttribute("id") === "checkbox-selector-cl" ||
@@ -147,18 +269,65 @@
                     ele.firstElementChild.getAttribute("id") === "long-text-cl" ||
                     ele.firstElementChild.getAttribute("id") === "number-text-cl" ||
                     ele.firstElementChild.getAttribute("id") === "spinner-text-cl" ||
-                    ele.firstElementChild.getAttribute("id") === "star-text-cl" ||
-                    ele.firstElementChild.getAttribute("id") === "radio-selector-cl" 
+                    ele.firstElementChild.getAttribute("id") === "star-text-cl" 
                     ){
                     
-                        defaults.recentQueOpt = ele.firstElementChild.getAttribute("id");
-                        var cnt = ind;
-                        while( cnt >= defaults.seqCheck ) {
+                        if( defaults.recentQueOpt === "" ) {
+                            defaults.recentQueOpt = ele.firstElementChild.getAttribute("id");
+                        }
+                    
+                        console.log("show seqCheck Very Imp pppppppppppppppppppppppppppppppppppp "+defaults.seqCheck);
+                        if( defaults.seqCheck === 0 ) {
                             
-                            if( (arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== defaults.recentQueOpt) && (arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== "survey-Q-cl") ) {
-                                throw new Error("A Question Can Have One Type Of Options Only");
+                            var handleError = arrEle.children("li").get(ind).lastElementChild;
+                                        $( handleError ).html( errorId["002"] );
+                                        $( handleError ).removeClass("err-hide");
+                                        $( handleError ).addClass("err-show");
+                            
+                        }
+                       
+                        else {
+                            
+                        
+                    
+                            var cnt = ind;
+                            while( cnt >= defaults.seqCheck ) {
+
+                                if( (arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== defaults.recentQueOpt) && (arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== "survey-Q-cl") ) {
+
+                                    /*
+                                     *Make certain field's immune to error's
+                                     */
+                                    if( arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== "image-uploader-Q-cl" &&
+                                      arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== "file-uploader-cl" &&
+                                    arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== "full-name-cl" &&
+                                    arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== "email-address-cl" &&
+                                    arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== "postal-address-cl" &&
+                                       arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== "Phone-num-cl" &&
+                                      arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !==  "date-cl" &&
+                                       arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== "time-cl" &&
+                                        arrEle.children("li").get(cnt).firstElementChild.getAttribute("id") !== "button-cl"
+                                      ) {
+
+                                        var handleError = arrEle.children("li").get(cnt).lastElementChild;
+                                        $( handleError ).html( errorId["004"] );
+                                        $( handleError ).removeClass("err-hide");
+                                        $( handleError ).addClass("err-show");
+                                        defaults.isError = 1;
+                                    }
+
+
+                                } else {
+                                    var handleError = arrEle.children("li").get(cnt).lastElementChild;
+                                    if( $( handleError ).hasClass("err-show")  ) {
+                                        $( handleError ).removeClass("err-show");
+                                        $( handleError ).addClass("err-hide");
+                                        defaults.isError = 0;
+                                    }
+                                }
+                                cnt--;
                             }
-                            cnt--;
+
                         }
                 }
                 
@@ -168,6 +337,9 @@
             
         } );
         
+        /*
+         *Delete handle
+         */
         $(".heading-delete-cl").click( function(e){
             var optV = e.currentTarget.parentElement.parentElement.parentElement;
             optV.remove();
@@ -178,10 +350,17 @@
                                 $("#drag-here-id").removeClass("hide-ele");
                                 $("#drag-here-id").addClass("show-ele");
                 }
+                if( $("#head-cl-err").hasClass("err-show") ) {
+                    $("#head-cl-err").removeClass("err-show");
+                    $("#head-cl-err").addClass("err-hide");
+                }
             }
             
         } );
         
+        /*
+         *Choose which elements to drop
+         */
         $( "#droppable" ).droppable({
               accept: "#header-id, #survey-question-id, #image-uploader-id, #radio-option-id, #dropdown-id, #check-box-id, #file-uploader-id, #textarea-id, #full-name-id, #email-id, #address-id, #number-id, #phone-id, #date-picker-id, #time-id, #submit-id, #short-text-entry-id, #long-text-entry-id, #captcha-id, #spinner-id, #star-rating-id, #scale-rating-id",
               drop: function( event, ui ) {
@@ -286,6 +465,9 @@
               }
         });
         
+        /*
+         *Make elements sortable
+         */
         $( "#ele-container-id" ).sortable({
           revert: true,
           handle: ".heading-drag-cl"    
