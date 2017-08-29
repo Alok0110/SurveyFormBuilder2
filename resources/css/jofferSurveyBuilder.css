@@ -275,17 +275,64 @@ li {
   /*display: none;*/
   width: 880px; }
 
-.form-save-cl {
+.help-bth-cl {
+  width: 10%;
+  /*25*/
+  height: 30px;
+  float: left;
+  cursor: pointer;
+  background-color: #8e44ad;
+  text-align: center;
+  position: fixed;
+  margin-left: 90%;
+  z-index: 1000; }
+  .help-bth-cl p {
+    font-size: 18px;
+    color: #dedede; }
+
+.help-element-cl {
+  width: 0%;
+  margin-left: 100%;
+  z-index: 999;
+  position: fixed; }
+  .help-element-cl .help-contents-cl {
+    float: left;
+    background-color: #545f6f;
+    height: 500px;
+    /*75*/
+    width: 0px;
+    overflow: hidden; }
+    .help-element-cl .help-contents-cl .help-heading-cl {
+      color: #dedede;
+      text-align: center;
+      margin-top: 10px;
+      font-size: 18px; }
+    .help-element-cl .help-contents-cl .help-info-fr-cl {
+      margin-top: 10px;
+      color: #dedede;
+      margin-left: 2px;
+      margin-right: 2px; }
+
+.form-save-cl, .form-preview-cl {
   display: inline-block;
-  width: 100%;
+  width: 50%;
   background-color: #545f6f;
+  float: left;
   color: #dedede;
   text-align: center;
   margin-top: 10px;
   font-size: 18px;
   cursor: pointer; }
+
+.form-save-cl {
+  background-color: #545f6f; }
   .form-save-cl:hover {
     background-color: #3e4652; }
+
+.form-preview-cl {
+  background-color: #e74c3c; }
+  .form-preview-cl:hover {
+    background-color: #C92918; }
 
 .text-area-cl .text-grp-cl textarea {
   float: left; }

@@ -120,7 +120,24 @@
                         var myRating = global.rating(el, currentRating, maxRating, callback, classForStar.substring(1));
         }
         
-        
+        /*
+         *Survey Help 
+         */
+        $(".help-bth-cl").click( function(e) {
+            
+            if( $("#help-contents-id").css("width") !== "0px" ) {
+                $("#help-contents-id").width("0px");
+                $("#help-bth-id").css("margin-left","100%");
+                $(".help-bth-cl").css("margin-left","90%");
+            } else {
+                
+                $(".help-bth-cl").css("margin-left","60%");
+                $(".help-element-cl").css("width","30%");
+                $("#help-contents-id").width("100%");
+                $("#help-bth-id").css("margin-left","70%");
+            }
+            
+        } );
         
         $("#form-save-id").click( function( e ){
             var arrEle = $("#ele-container-id");

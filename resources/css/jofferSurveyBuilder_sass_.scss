@@ -396,17 +396,78 @@ li {
     width: 880px;
 }
 
-.form-save-cl {
+.help-bth-cl {
+        width: 10%;
+        /*25*/
+        height: 30px;
+        float: left;
+        cursor: pointer;
+        background-color: $baseColor;
+        text-align: center;
+        position: fixed;
+        margin-left: 90%;
+        z-index: 1000;
+        
+        p{
+            font-size: 18px;
+            color: #dedede;
+        }
+    }
+
+.help-element-cl {
+    width: 0%;
+    margin-left: 100%;
+    z-index: 999;
+    position: fixed;
+    
+    
+    
+    .help-contents-cl {
+        float: left;
+        background-color: $baseButton;
+        height: 500px;
+        /*75*/
+        width: 0px;
+        overflow: hidden;
+        .help-heading-cl {
+            color: #dedede;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        .help-info-fr-cl {
+            margin-top: 10px;
+            color: #dedede;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+    }
+}
+
+.form-save-cl, .form-preview-cl {
     display: inline-block;
-    width: 100%;
+    width: 50%;
     background-color: $baseButton;
+    float: left;
     color: #dedede;
     text-align: center;
     margin-top: 10px;
     font-size: 18px;
     cursor: pointer;
+    
+}
+
+.form-save-cl {
+    background-color: $baseButton;
     &:hover {
         background-color: $basePanelColor;
+    }
+}
+
+.form-preview-cl {
+    background-color: $secondaryColor;
+    &:hover {
+        background-color: $secondaryHoverColor;
     }
 }
 
