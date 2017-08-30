@@ -39,7 +39,8 @@
         addr: '',
         phnum: '',
         subbtn: '',
-        headingUni: ''
+        headingUni: '',
+        starCheck: 0
     };
     
     /**
@@ -100,24 +101,30 @@
                         cl.addClass("show-ele");
                         cl.removeClass( ele.substring(1) );
                         
-                        /* For demo only  */
+                        
+                        console.log("check ele first "+ele);
                         if( ele === ".star-li-cl" ) {
+                            defaults.starCheck+=1;
+                            cl.attr("id","star-"+defaults.starCheck);
                             var changeCl = cl.children().children().children();
+                            var changeEleCl = cl.get(0).firstElementChild.firstElementChild.firstElementChild;
                             console.log(changeCl);
                             console.log("check cl");
                             changeCl.removeClass("el");
                             changeCl.addClass("c-rating");
+                            self.runStar("c-rating","star-"+defaults.starCheck, changeEleCl);
                         }
-                        /* End demo */
+                        
                         
         }
         
-        self.runStar = function( classForStar ) {
-                        var el = document.querySelector( classForStar );
+        self.runStar = function( classForStar, starHandle, changeEleCl ) {
+                        var el = changeEleCl;
+                            //document.querySelector( "#"+starHandle );
                         var currentRating = 0;
                         var maxRating= 5;
                         var callback = function(rating) { alert(rating); };
-                        var myRating = global.rating(el, currentRating, maxRating, callback, classForStar.substring(1));
+                        var myRating = global.rating(el, currentRating, maxRating, callback);
         }
         
         /*
@@ -482,7 +489,7 @@
                     
                     case "star-rating-id" :
                         self.attachToBody(".star-li-cl");
-                        self.runStar(".c-rating"); //For Demo Only
+                        //self.runStar(".c-rating"); //For Demo Only
                         break;
                     
                     case "scale-rating-id" :

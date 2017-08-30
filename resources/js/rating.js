@@ -12,7 +12,7 @@
    * @param {Function} callback The optional callback to run after set rating
    * @return {Object} Some public methods
    */
-  function rating(el, currentRating, maxRating, callback, className) {
+  function rating(el, currentRating, maxRating, callback) {
     
     /**
      * stars
@@ -35,7 +35,8 @@
 
       for (var i = 0; i < maxRating; i++) {
         var star = document.createElement('li');
-        star.classList.add(className+'__item');
+          //c-rating
+        star.classList.add('c-rating__item');
         star.setAttribute('data-index', i);
         if (i < currentRating) { star.classList.add('is-active'); }
         el.appendChild(star);
