@@ -388,7 +388,7 @@
             
                 //console.log("  ======> "+$(".err-show").get(0));
                 if( $(".err-show").get(0) === undefined ) {
-                    alert("The Author Is Working On Final Server Side Work, It Can Be Viewed On ==> http://www.joffer.nz ");
+                    alert("Final Server Side Work, It Can Be Viewed On ==> http://www.joffer.nz ");
                 }
             
         } );
