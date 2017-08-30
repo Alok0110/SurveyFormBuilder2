@@ -146,6 +146,16 @@
             
         } );
         
+        /*
+         *Reset the form
+         */
+        $("#form-reset-id").click( function(e){
+            global.location.reload();
+        } );
+        
+        /*
+         *Start the search
+         */
         $("#form-save-id").click( function( e ){
             var arrEle = $("#ele-container-id");
             
@@ -375,6 +385,11 @@
                 
                 
             } );
+            
+                //console.log("  ======> "+$(".err-show").get(0));
+                if( $(".err-show").get(0) === undefined ) {
+                    alert("The Author Is Working On Final Server Side Work, It Can Be Viewed On ==> http://www.joffer.nz ");
+                }
             
         } );
         

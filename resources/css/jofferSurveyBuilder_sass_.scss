@@ -444,9 +444,9 @@ li {
     }
 }
 
-.form-save-cl, .form-preview-cl {
+.form-save-cl, .form-preview-cl, .form-reset-cl {
     display: inline-block;
-    width: 50%;
+    width: 33.3333%;
     background-color: $baseButton;
     float: left;
     color: #dedede;
@@ -457,14 +457,14 @@ li {
     
 }
 
-.form-save-cl {
+.form-save-cl  {
     background-color: $baseButton;
     &:hover {
         background-color: $basePanelColor;
     }
 }
 
-.form-preview-cl {
+.form-preview-cl, .form-reset-cl {
     background-color: $secondaryColor;
     &:hover {
         background-color: $secondaryHoverColor;

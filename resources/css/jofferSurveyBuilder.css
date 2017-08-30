@@ -313,9 +313,9 @@ li {
       margin-left: 2px;
       margin-right: 2px; }
 
-.form-save-cl, .form-preview-cl {
+.form-save-cl, .form-preview-cl, .form-reset-cl {
   display: inline-block;
-  width: 50%;
+  width: 33.3333%;
   background-color: #545f6f;
   float: left;
   color: #dedede;
@@ -329,9 +329,9 @@ li {
   .form-save-cl:hover {
     background-color: #3e4652; }
 
-.form-preview-cl {
+.form-preview-cl, .form-reset-cl {
   background-color: #e74c3c; }
-  .form-preview-cl:hover {
+  .form-preview-cl:hover, .form-reset-cl:hover {
     background-color: #C92918; }
 
 .text-area-cl .text-grp-cl textarea {
