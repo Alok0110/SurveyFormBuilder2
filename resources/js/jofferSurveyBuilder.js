@@ -198,8 +198,7 @@
                  *Add question 
                  */
                 if( ele.firstElementChild.getAttribute("id") === "survey-Q-cl" ) {
-                    defaults.recentQue+=1;
-                    ele.firstElementChild.firstElementChild.firstElementChild.setAttribute("id","Q"+defaults.recentQue);
+                    
                     defaults.seqCheck = ind;
                     defaults.recentQueOpt = "";
                 }
@@ -412,6 +411,10 @@
                 }
             }
             
+        } );
+        
+        $(".btn-start-cl").click( function( e ){
+            global.location.assign("http://localhost/runjoffer.php/Joffer/survey_builder")
         } );
         
         /*
