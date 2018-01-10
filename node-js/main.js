@@ -2,9 +2,7 @@ var http = require("http");
 var sass = require('node-sass');
 var fs = require('fs');
 
-/*
- * Starts for server files if any, not used in this app
- */
+
 http.createServer(function(request,response){
     
     response.writeHead(200, {'Content-Type': 'text/plain'});
